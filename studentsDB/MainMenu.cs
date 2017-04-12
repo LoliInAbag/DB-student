@@ -26,6 +26,8 @@ namespace studentsDB
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "eFDbContextDataSet1.students". При необходимости она может быть перемещена или удалена.
+            this.studentsTableAdapter1.Fill(this.eFDbContextDataSet1.students);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "eFDbContextDataSet.students". При необходимости она может быть перемещена или удалена.
             this.studentsTableAdapter.Fill(this.eFDbContextDataSet.students);
           
@@ -44,7 +46,7 @@ namespace studentsDB
         private void button3_Click(object sender, EventArgs e)
         {
             dataGridView1.Visible = true;
-            EditPanel.Visible = false;
+          
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -117,6 +119,83 @@ namespace studentsDB
             {
                 sqlCon.Close();
             }
+        }
+        void FillDataGridView()
+        {
+            if (sqlCon.State == ConnectionState.Closed)
+                sqlCon.Open();
+
+            SqlDataAdapter sqlDa = new SqlDataAdapter("ViewOrSearch",sqlCon);
+            sqlDa.SelectCommand.CommandType = CommandType.StoredProcedure;
+            sqlDa.SelectCommand.Parameters.AddWithValue("@lil",txtSearch.Text.Trim());
+            DataTable dtbl = new DataTable();
+            sqlDa.Fill(dtbl);
+            dataGridView1.DataSource = dtbl;
+
+            sqlCon.Close();
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            /*if (this.txtSearch.Text != String.Empty)
+            {
+                this.studentsBindingSource1.Filter = String.Format("[Фамилия] LIKE '*{0}*' OR [Имя] LIKE '*{0}*' OR [Группа] LIKE '*{0}*'  OR [Специальность] LIKE '*{0}* 'OR [Иностранный_язык] LIKE '*{0}*' OR [Многодетная_семья] LIKE '*{0}*' OR [Номер_диплома] LIKE '*{0}*' OR [Форма_обучения ] LIKE '*{0}*' ", this.txtSearch.Text);
+            }
+            else
+            {
+                this.studentsBindingSource1.Filter = "";
+            }*/
+            try
+            {
+                FillDataGridView();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка");
+            }
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EditPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Visible = true;
+            EditPanel.Visible = true;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Visible = false;
+            EditPanel.Visible = false;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
