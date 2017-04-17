@@ -50,11 +50,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EFDbContextDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="EFDbContextDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EFDbContextDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,17 +80,6 @@
     </None>
     <None Include="EFDbContextDataSet.xss">
       <DependentUpon>EFDbContextDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="EFDbContextDataSet1.xsc">
-      <DependentUpon>EFDbContextDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="EFDbContextDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>EFDbContextDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="EFDbContextDataSet1.xss">
-      <DependentUpon>EFDbContextDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

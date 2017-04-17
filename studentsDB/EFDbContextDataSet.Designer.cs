@@ -289,7 +289,59 @@ namespace studentsDB {
             
             private global::System.Data.DataColumn columnГруппа;
             
+            private global::System.Data.DataColumn columnДата_рождения;
+            
+            private global::System.Data.DataColumn columnГод_поступления;
+            
+            private global::System.Data.DataColumn columnГод_окончания;
+            
+            private global::System.Data.DataColumn columnОбразование;
+            
+            private global::System.Data.DataColumn columnГод_окончания_школы;
+            
+            private global::System.Data.DataColumn columnНомер_школы;
+            
             private global::System.Data.DataColumn columnСпециальность;
+            
+            private global::System.Data.DataColumn columnФорма_обучения;
+            
+            private global::System.Data.DataColumn columnНомер_телефона_учащегося;
+            
+            private global::System.Data.DataColumn columnНомер_телефона_родителей;
+            
+            private global::System.Data.DataColumn columnАдрес;
+            
+            private global::System.Data.DataColumn columnИностранный_язык;
+            
+            private global::System.Data.DataColumn columnГруппа_здоровья;
+            
+            private global::System.Data.DataColumn columnГражданство;
+            
+            private global::System.Data.DataColumn columnДокумент_подтверждающий_гражданство;
+            
+            private global::System.Data.DataColumn columnМногодетная_семья;
+            
+            private global::System.Data.DataColumn columnИнвалидность;
+            
+            private global::System.Data.DataColumn columnСрок_действия;
+            
+            private global::System.Data.DataColumn columnОснование_поощрение;
+            
+            private global::System.Data.DataColumn columnОснование_взыскания;
+            
+            private global::System.Data.DataColumn columnНомер_диплома;
+            
+            private global::System.Data.DataColumn columnОт_какого_числа;
+            
+            private global::System.Data.DataColumn columnВнутриние_перемещения;
+            
+            private global::System.Data.DataColumn columnХарактеристика_выпускника;
+            
+            private global::System.Data.DataColumn columnТрудоустройство_выпускника;
+            
+            private global::System.Data.DataColumn columnПродвижение_выпускника;
+            
+            private global::System.Data.DataColumn columnПропуски_без_уважительных_причин;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -366,9 +418,217 @@ namespace studentsDB {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Дата_рожденияColumn {
+                get {
+                    return this.columnДата_рождения;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Год_поступленияColumn {
+                get {
+                    return this.columnГод_поступления;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Год_окончанияColumn {
+                get {
+                    return this.columnГод_окончания;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn ОбразованиеColumn {
+                get {
+                    return this.columnОбразование;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Год_окончания_школыColumn {
+                get {
+                    return this.columnГод_окончания_школы;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Номер_школыColumn {
+                get {
+                    return this.columnНомер_школы;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn СпециальностьColumn {
                 get {
                     return this.columnСпециальность;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Форма_обученияColumn {
+                get {
+                    return this.columnФорма_обучения;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Номер_телефона_учащегосяColumn {
+                get {
+                    return this.columnНомер_телефона_учащегося;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Номер_телефона_родителейColumn {
+                get {
+                    return this.columnНомер_телефона_родителей;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn АдресColumn {
+                get {
+                    return this.columnАдрес;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Иностранный_языкColumn {
+                get {
+                    return this.columnИностранный_язык;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Группа_здоровьяColumn {
+                get {
+                    return this.columnГруппа_здоровья;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn ГражданствоColumn {
+                get {
+                    return this.columnГражданство;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Документ_подтверждающий_гражданствоColumn {
+                get {
+                    return this.columnДокумент_подтверждающий_гражданство;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Многодетная_семьяColumn {
+                get {
+                    return this.columnМногодетная_семья;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn ИнвалидностьColumn {
+                get {
+                    return this.columnИнвалидность;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Срок_действияColumn {
+                get {
+                    return this.columnСрок_действия;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Основание_поощрениеColumn {
+                get {
+                    return this.columnОснование_поощрение;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Основание_взысканияColumn {
+                get {
+                    return this.columnОснование_взыскания;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Номер_дипломаColumn {
+                get {
+                    return this.columnНомер_диплома;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn От_какого_числаColumn {
+                get {
+                    return this.columnОт_какого_числа;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Внутриние_перемещенияColumn {
+                get {
+                    return this.columnВнутриние_перемещения;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Характеристика_выпускникаColumn {
+                get {
+                    return this.columnХарактеристика_выпускника;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Трудоустройство_выпускникаColumn {
+                get {
+                    return this.columnТрудоустройство_выпускника;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Продвижение_выпускникаColumn {
+                get {
+                    return this.columnПродвижение_выпускника;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Пропуски_без_уважительных_причинColumn {
+                get {
+                    return this.columnПропуски_без_уважительных_причин;
                 }
             }
             
@@ -409,7 +669,38 @@ namespace studentsDB {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public studentsRow AddstudentsRow(string Фамилия, string Имя, string Отчество, string Группа, string Специальность) {
+            public studentsRow AddstudentsRow(
+                        string Фамилия, 
+                        string Имя, 
+                        string Отчество, 
+                        string Группа, 
+                        string Дата_рождения, 
+                        string Год_поступления, 
+                        string Год_окончания, 
+                        string Образование, 
+                        string Год_окончания_школы, 
+                        string Номер_школы, 
+                        string Специальность, 
+                        string Форма_обучения, 
+                        string Номер_телефона_учащегося, 
+                        string Номер_телефона_родителей, 
+                        string Адрес, 
+                        string Иностранный_язык, 
+                        string Группа_здоровья, 
+                        string Гражданство, 
+                        string Документ_подтверждающий_гражданство, 
+                        string Многодетная_семья, 
+                        string Инвалидность, 
+                        string Срок_действия, 
+                        string Основание_поощрение, 
+                        string Основание_взыскания, 
+                        string Номер_диплома, 
+                        string От_какого_числа, 
+                        string Внутриние_перемещения, 
+                        string Характеристика_выпускника, 
+                        string Трудоустройство_выпускника, 
+                        string Продвижение_выпускника, 
+                        string Пропуски_без_уважительных_причин) {
                 studentsRow rowstudentsRow = ((studentsRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -417,7 +708,33 @@ namespace studentsDB {
                         Имя,
                         Отчество,
                         Группа,
-                        Специальность};
+                        Дата_рождения,
+                        Год_поступления,
+                        Год_окончания,
+                        Образование,
+                        Год_окончания_школы,
+                        Номер_школы,
+                        Специальность,
+                        Форма_обучения,
+                        Номер_телефона_учащегося,
+                        Номер_телефона_родителей,
+                        Адрес,
+                        Иностранный_язык,
+                        Группа_здоровья,
+                        Гражданство,
+                        Документ_подтверждающий_гражданство,
+                        Многодетная_семья,
+                        Инвалидность,
+                        Срок_действия,
+                        Основание_поощрение,
+                        Основание_взыскания,
+                        Номер_диплома,
+                        От_какого_числа,
+                        Внутриние_перемещения,
+                        Характеристика_выпускника,
+                        Трудоустройство_выпускника,
+                        Продвижение_выпускника,
+                        Пропуски_без_уважительных_причин};
                 rowstudentsRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowstudentsRow);
                 return rowstudentsRow;
@@ -452,7 +769,33 @@ namespace studentsDB {
                 this.columnИмя = base.Columns["Имя"];
                 this.columnОтчество = base.Columns["Отчество"];
                 this.columnГруппа = base.Columns["Группа"];
+                this.columnДата_рождения = base.Columns["Дата_рождения"];
+                this.columnГод_поступления = base.Columns["Год_поступления"];
+                this.columnГод_окончания = base.Columns["Год_окончания"];
+                this.columnОбразование = base.Columns["Образование"];
+                this.columnГод_окончания_школы = base.Columns["Год_окончания_школы"];
+                this.columnНомер_школы = base.Columns["Номер_школы"];
                 this.columnСпециальность = base.Columns["Специальность"];
+                this.columnФорма_обучения = base.Columns["Форма_обучения"];
+                this.columnНомер_телефона_учащегося = base.Columns["Номер_телефона_учащегося"];
+                this.columnНомер_телефона_родителей = base.Columns["Номер_телефона_родителей"];
+                this.columnАдрес = base.Columns["Адрес"];
+                this.columnИностранный_язык = base.Columns["Иностранный_язык"];
+                this.columnГруппа_здоровья = base.Columns["Группа_здоровья"];
+                this.columnГражданство = base.Columns["Гражданство"];
+                this.columnДокумент_подтверждающий_гражданство = base.Columns["Документ_подтверждающий_гражданство"];
+                this.columnМногодетная_семья = base.Columns["Многодетная_семья"];
+                this.columnИнвалидность = base.Columns["Инвалидность"];
+                this.columnСрок_действия = base.Columns["Срок_действия"];
+                this.columnОснование_поощрение = base.Columns["Основание_поощрение"];
+                this.columnОснование_взыскания = base.Columns["Основание_взыскания"];
+                this.columnНомер_диплома = base.Columns["Номер_диплома"];
+                this.columnОт_какого_числа = base.Columns["От_какого_числа"];
+                this.columnВнутриние_перемещения = base.Columns["Внутриние_перемещения"];
+                this.columnХарактеристика_выпускника = base.Columns["Характеристика_выпускника"];
+                this.columnТрудоустройство_выпускника = base.Columns["Трудоустройство_выпускника"];
+                this.columnПродвижение_выпускника = base.Columns["Продвижение_выпускника"];
+                this.columnПропуски_без_уважительных_причин = base.Columns["Пропуски_без_уважительных_причин"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -468,8 +811,60 @@ namespace studentsDB {
                 base.Columns.Add(this.columnОтчество);
                 this.columnГруппа = new global::System.Data.DataColumn("Группа", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnГруппа);
+                this.columnДата_рождения = new global::System.Data.DataColumn("Дата_рождения", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnДата_рождения);
+                this.columnГод_поступления = new global::System.Data.DataColumn("Год_поступления", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnГод_поступления);
+                this.columnГод_окончания = new global::System.Data.DataColumn("Год_окончания", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnГод_окончания);
+                this.columnОбразование = new global::System.Data.DataColumn("Образование", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnОбразование);
+                this.columnГод_окончания_школы = new global::System.Data.DataColumn("Год_окончания_школы", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnГод_окончания_школы);
+                this.columnНомер_школы = new global::System.Data.DataColumn("Номер_школы", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnНомер_школы);
                 this.columnСпециальность = new global::System.Data.DataColumn("Специальность", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnСпециальность);
+                this.columnФорма_обучения = new global::System.Data.DataColumn("Форма_обучения", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnФорма_обучения);
+                this.columnНомер_телефона_учащегося = new global::System.Data.DataColumn("Номер_телефона_учащегося", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnНомер_телефона_учащегося);
+                this.columnНомер_телефона_родителей = new global::System.Data.DataColumn("Номер_телефона_родителей", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnНомер_телефона_родителей);
+                this.columnАдрес = new global::System.Data.DataColumn("Адрес", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnАдрес);
+                this.columnИностранный_язык = new global::System.Data.DataColumn("Иностранный_язык", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnИностранный_язык);
+                this.columnГруппа_здоровья = new global::System.Data.DataColumn("Группа_здоровья", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnГруппа_здоровья);
+                this.columnГражданство = new global::System.Data.DataColumn("Гражданство", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnГражданство);
+                this.columnДокумент_подтверждающий_гражданство = new global::System.Data.DataColumn("Документ_подтверждающий_гражданство", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnДокумент_подтверждающий_гражданство);
+                this.columnМногодетная_семья = new global::System.Data.DataColumn("Многодетная_семья", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnМногодетная_семья);
+                this.columnИнвалидность = new global::System.Data.DataColumn("Инвалидность", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnИнвалидность);
+                this.columnСрок_действия = new global::System.Data.DataColumn("Срок_действия", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnСрок_действия);
+                this.columnОснование_поощрение = new global::System.Data.DataColumn("Основание_поощрение", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnОснование_поощрение);
+                this.columnОснование_взыскания = new global::System.Data.DataColumn("Основание_взыскания", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnОснование_взыскания);
+                this.columnНомер_диплома = new global::System.Data.DataColumn("Номер_диплома", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnНомер_диплома);
+                this.columnОт_какого_числа = new global::System.Data.DataColumn("От_какого_числа", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnОт_какого_числа);
+                this.columnВнутриние_перемещения = new global::System.Data.DataColumn("Внутриние_перемещения", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnВнутриние_перемещения);
+                this.columnХарактеристика_выпускника = new global::System.Data.DataColumn("Характеристика_выпускника", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnХарактеристика_выпускника);
+                this.columnТрудоустройство_выпускника = new global::System.Data.DataColumn("Трудоустройство_выпускника", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnТрудоустройство_выпускника);
+                this.columnПродвижение_выпускника = new global::System.Data.DataColumn("Продвижение_выпускника", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnПродвижение_выпускника);
+                this.columnПропуски_без_уважительных_причин = new global::System.Data.DataColumn("Пропуски_без_уважительных_причин", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnПропуски_без_уважительных_причин);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnId}, true));
                 this.columnId.AutoIncrement = true;
@@ -482,7 +877,33 @@ namespace studentsDB {
                 this.columnИмя.MaxLength = 2147483647;
                 this.columnОтчество.MaxLength = 2147483647;
                 this.columnГруппа.MaxLength = 2147483647;
+                this.columnДата_рождения.MaxLength = 2147483647;
+                this.columnГод_поступления.MaxLength = 2147483647;
+                this.columnГод_окончания.MaxLength = 2147483647;
+                this.columnОбразование.MaxLength = 2147483647;
+                this.columnГод_окончания_школы.MaxLength = 2147483647;
+                this.columnНомер_школы.MaxLength = 2147483647;
                 this.columnСпециальность.MaxLength = 2147483647;
+                this.columnФорма_обучения.MaxLength = 2147483647;
+                this.columnНомер_телефона_учащегося.MaxLength = 2147483647;
+                this.columnНомер_телефона_родителей.MaxLength = 2147483647;
+                this.columnАдрес.MaxLength = 2147483647;
+                this.columnИностранный_язык.MaxLength = 2147483647;
+                this.columnГруппа_здоровья.MaxLength = 2147483647;
+                this.columnГражданство.MaxLength = 2147483647;
+                this.columnДокумент_подтверждающий_гражданство.MaxLength = 2147483647;
+                this.columnМногодетная_семья.MaxLength = 2147483647;
+                this.columnИнвалидность.MaxLength = 2147483647;
+                this.columnСрок_действия.MaxLength = 2147483647;
+                this.columnОснование_поощрение.MaxLength = 2147483647;
+                this.columnОснование_взыскания.MaxLength = 2147483647;
+                this.columnНомер_диплома.MaxLength = 2147483647;
+                this.columnОт_какого_числа.MaxLength = 2147483647;
+                this.columnВнутриние_перемещения.MaxLength = 2147483647;
+                this.columnХарактеристика_выпускника.MaxLength = 2147483647;
+                this.columnТрудоустройство_выпускника.MaxLength = 2147483647;
+                this.columnПродвижение_выпускника.MaxLength = 2147483647;
+                this.columnПропуски_без_уважительных_причин.MaxLength = 2147483647;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -700,6 +1121,102 @@ namespace studentsDB {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Дата_рождения {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Дата_рожденияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Дата_рождения\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Дата_рожденияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Год_поступления {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Год_поступленияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Год_поступления\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Год_поступленияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Год_окончания {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Год_окончанияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Год_окончания\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Год_окончанияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Образование {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.ОбразованиеColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Образование\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.ОбразованиеColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Год_окончания_школы {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Год_окончания_школыColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Год_окончания_школы\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Год_окончания_школыColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Номер_школы {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Номер_школыColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Номер_школы\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Номер_школыColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string Специальность {
                 get {
                     try {
@@ -711,6 +1228,332 @@ namespace studentsDB {
                 }
                 set {
                     this[this.tablestudents.СпециальностьColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Форма_обучения {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Форма_обученияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Форма_обучения\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Форма_обученияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Номер_телефона_учащегося {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Номер_телефона_учащегосяColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Номер_телефона_учащегося\' в таблице \'students\' равно DBNull" +
+                                ".", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Номер_телефона_учащегосяColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Номер_телефона_родителей {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Номер_телефона_родителейColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Номер_телефона_родителей\' в таблице \'students\' равно DBNull" +
+                                ".", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Номер_телефона_родителейColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Адрес {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.АдресColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Адрес\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.АдресColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Иностранный_язык {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Иностранный_языкColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Иностранный_язык\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Иностранный_языкColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Группа_здоровья {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Группа_здоровьяColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Группа_здоровья\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Группа_здоровьяColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Гражданство {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.ГражданствоColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Гражданство\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.ГражданствоColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Документ_подтверждающий_гражданство {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Документ_подтверждающий_гражданствоColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Документ_подтверждающий_гражданство\' в таблице \'students\' р" +
+                                "авно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Документ_подтверждающий_гражданствоColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Многодетная_семья {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Многодетная_семьяColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Многодетная_семья\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Многодетная_семьяColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Инвалидность {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.ИнвалидностьColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Инвалидность\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.ИнвалидностьColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Срок_действия {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Срок_действияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Срок_действия\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Срок_действияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Основание_поощрение {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Основание_поощрениеColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Основание_поощрение\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Основание_поощрениеColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Основание_взыскания {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Основание_взысканияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Основание_взыскания\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Основание_взысканияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Номер_диплома {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Номер_дипломаColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Номер_диплома\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Номер_дипломаColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string От_какого_числа {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.От_какого_числаColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'От_какого_числа\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.От_какого_числаColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Внутриние_перемещения {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Внутриние_перемещенияColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Внутриние_перемещения\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Внутриние_перемещенияColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Характеристика_выпускника {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Характеристика_выпускникаColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Характеристика_выпускника\' в таблице \'students\' равно DBNul" +
+                                "l.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Характеристика_выпускникаColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Трудоустройство_выпускника {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Трудоустройство_выпускникаColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Трудоустройство_выпускника\' в таблице \'students\' равно DBNu" +
+                                "ll.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Трудоустройство_выпускникаColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Продвижение_выпускника {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Продвижение_выпускникаColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Продвижение_выпускника\' в таблице \'students\' равно DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Продвижение_выпускникаColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Пропуски_без_уважительных_причин {
+                get {
+                    try {
+                        return ((string)(this[this.tablestudents.Пропуски_без_уважительных_причинColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Значение для столбца \'Пропуски_без_уважительных_причин\' в таблице \'students\' равн" +
+                                "о DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablestudents.Пропуски_без_уважительных_причинColumn] = value;
                 }
             }
             
@@ -764,6 +1607,78 @@ namespace studentsDB {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsДата_рожденияNull() {
+                return this.IsNull(this.tablestudents.Дата_рожденияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetДата_рожденияNull() {
+                this[this.tablestudents.Дата_рожденияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsГод_поступленияNull() {
+                return this.IsNull(this.tablestudents.Год_поступленияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetГод_поступленияNull() {
+                this[this.tablestudents.Год_поступленияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsГод_окончанияNull() {
+                return this.IsNull(this.tablestudents.Год_окончанияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetГод_окончанияNull() {
+                this[this.tablestudents.Год_окончанияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsОбразованиеNull() {
+                return this.IsNull(this.tablestudents.ОбразованиеColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetОбразованиеNull() {
+                this[this.tablestudents.ОбразованиеColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsГод_окончания_школыNull() {
+                return this.IsNull(this.tablestudents.Год_окончания_школыColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetГод_окончания_школыNull() {
+                this[this.tablestudents.Год_окончания_школыColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsНомер_школыNull() {
+                return this.IsNull(this.tablestudents.Номер_школыColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetНомер_школыNull() {
+                this[this.tablestudents.Номер_школыColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsСпециальностьNull() {
                 return this.IsNull(this.tablestudents.СпециальностьColumn);
             }
@@ -772,6 +1687,246 @@ namespace studentsDB {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetСпециальностьNull() {
                 this[this.tablestudents.СпециальностьColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsФорма_обученияNull() {
+                return this.IsNull(this.tablestudents.Форма_обученияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetФорма_обученияNull() {
+                this[this.tablestudents.Форма_обученияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsНомер_телефона_учащегосяNull() {
+                return this.IsNull(this.tablestudents.Номер_телефона_учащегосяColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetНомер_телефона_учащегосяNull() {
+                this[this.tablestudents.Номер_телефона_учащегосяColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsНомер_телефона_родителейNull() {
+                return this.IsNull(this.tablestudents.Номер_телефона_родителейColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetНомер_телефона_родителейNull() {
+                this[this.tablestudents.Номер_телефона_родителейColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsАдресNull() {
+                return this.IsNull(this.tablestudents.АдресColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetАдресNull() {
+                this[this.tablestudents.АдресColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsИностранный_языкNull() {
+                return this.IsNull(this.tablestudents.Иностранный_языкColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetИностранный_языкNull() {
+                this[this.tablestudents.Иностранный_языкColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsГруппа_здоровьяNull() {
+                return this.IsNull(this.tablestudents.Группа_здоровьяColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetГруппа_здоровьяNull() {
+                this[this.tablestudents.Группа_здоровьяColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsГражданствоNull() {
+                return this.IsNull(this.tablestudents.ГражданствоColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetГражданствоNull() {
+                this[this.tablestudents.ГражданствоColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsДокумент_подтверждающий_гражданствоNull() {
+                return this.IsNull(this.tablestudents.Документ_подтверждающий_гражданствоColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetДокумент_подтверждающий_гражданствоNull() {
+                this[this.tablestudents.Документ_подтверждающий_гражданствоColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsМногодетная_семьяNull() {
+                return this.IsNull(this.tablestudents.Многодетная_семьяColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetМногодетная_семьяNull() {
+                this[this.tablestudents.Многодетная_семьяColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsИнвалидностьNull() {
+                return this.IsNull(this.tablestudents.ИнвалидностьColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetИнвалидностьNull() {
+                this[this.tablestudents.ИнвалидностьColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsСрок_действияNull() {
+                return this.IsNull(this.tablestudents.Срок_действияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetСрок_действияNull() {
+                this[this.tablestudents.Срок_действияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsОснование_поощрениеNull() {
+                return this.IsNull(this.tablestudents.Основание_поощрениеColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetОснование_поощрениеNull() {
+                this[this.tablestudents.Основание_поощрениеColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsОснование_взысканияNull() {
+                return this.IsNull(this.tablestudents.Основание_взысканияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetОснование_взысканияNull() {
+                this[this.tablestudents.Основание_взысканияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsНомер_дипломаNull() {
+                return this.IsNull(this.tablestudents.Номер_дипломаColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetНомер_дипломаNull() {
+                this[this.tablestudents.Номер_дипломаColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsОт_какого_числаNull() {
+                return this.IsNull(this.tablestudents.От_какого_числаColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetОт_какого_числаNull() {
+                this[this.tablestudents.От_какого_числаColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsВнутриние_перемещенияNull() {
+                return this.IsNull(this.tablestudents.Внутриние_перемещенияColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetВнутриние_перемещенияNull() {
+                this[this.tablestudents.Внутриние_перемещенияColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsХарактеристика_выпускникаNull() {
+                return this.IsNull(this.tablestudents.Характеристика_выпускникаColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetХарактеристика_выпускникаNull() {
+                this[this.tablestudents.Характеристика_выпускникаColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsТрудоустройство_выпускникаNull() {
+                return this.IsNull(this.tablestudents.Трудоустройство_выпускникаColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetТрудоустройство_выпускникаNull() {
+                this[this.tablestudents.Трудоустройство_выпускникаColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsПродвижение_выпускникаNull() {
+                return this.IsNull(this.tablestudents.Продвижение_выпускникаColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetПродвижение_выпускникаNull() {
+                this[this.tablestudents.Продвижение_выпускникаColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsПропуски_без_уважительных_причинNull() {
+                return this.IsNull(this.tablestudents.Пропуски_без_уважительных_причинColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetПропуски_без_уважительных_причинNull() {
+                this[this.tablestudents.Пропуски_без_уважительных_причинColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -939,7 +2094,33 @@ namespace studentsDB.EFDbContextDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("Имя", "Имя");
             tableMapping.ColumnMappings.Add("Отчество", "Отчество");
             tableMapping.ColumnMappings.Add("Группа", "Группа");
+            tableMapping.ColumnMappings.Add("Дата_рождения", "Дата_рождения");
+            tableMapping.ColumnMappings.Add("Год_поступления", "Год_поступления");
+            tableMapping.ColumnMappings.Add("Год_окончания", "Год_окончания");
+            tableMapping.ColumnMappings.Add("Образование", "Образование");
+            tableMapping.ColumnMappings.Add("Год_окончания_школы", "Год_окончания_школы");
+            tableMapping.ColumnMappings.Add("Номер_школы", "Номер_школы");
             tableMapping.ColumnMappings.Add("Специальность", "Специальность");
+            tableMapping.ColumnMappings.Add("Форма_обучения", "Форма_обучения");
+            tableMapping.ColumnMappings.Add("Номер_телефона_учащегося", "Номер_телефона_учащегося");
+            tableMapping.ColumnMappings.Add("Номер_телефона_родителей", "Номер_телефона_родителей");
+            tableMapping.ColumnMappings.Add("Адрес", "Адрес");
+            tableMapping.ColumnMappings.Add("Иностранный_язык", "Иностранный_язык");
+            tableMapping.ColumnMappings.Add("Группа_здоровья", "Группа_здоровья");
+            tableMapping.ColumnMappings.Add("Гражданство", "Гражданство");
+            tableMapping.ColumnMappings.Add("Документ_подтверждающий_гражданство", "Документ_подтверждающий_гражданство");
+            tableMapping.ColumnMappings.Add("Многодетная_семья", "Многодетная_семья");
+            tableMapping.ColumnMappings.Add("Инвалидность", "Инвалидность");
+            tableMapping.ColumnMappings.Add("Срок_действия", "Срок_действия");
+            tableMapping.ColumnMappings.Add("Основание_поощрение", "Основание_поощрение");
+            tableMapping.ColumnMappings.Add("Основание_взыскания", "Основание_взыскания");
+            tableMapping.ColumnMappings.Add("Номер_диплома", "Номер_диплома");
+            tableMapping.ColumnMappings.Add("От_какого_числа", "От_какого_числа");
+            tableMapping.ColumnMappings.Add("Внутриние_перемещения", "Внутриние_перемещения");
+            tableMapping.ColumnMappings.Add("Характеристика_выпускника", "Характеристика_выпускника");
+            tableMapping.ColumnMappings.Add("Трудоустройство_выпускника", "Трудоустройство_выпускника");
+            tableMapping.ColumnMappings.Add("Продвижение_выпускника", "Продвижение_выпускника");
+            tableMapping.ColumnMappings.Add("Пропуски_без_уважительных_причин", "Пропуски_без_уважительных_причин");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
@@ -948,26 +2129,120 @@ namespace studentsDB.EFDbContextDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[students] ([Фамилия], [Имя], [Отчество], [Группа], [Специально" +
-                "сть]) VALUES (@Фамилия, @Имя, @Отчество, @Группа, @Специальность);\r\nSELECT Id, Ф" +
-                "амилия, Имя, Отчество, Группа, Специальность FROM students WHERE (Id = SCOPE_IDE" +
-                "NTITY())";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[students] ([Фамилия], [Имя], [Отчество], [Группа], [Дата_рожде" +
+                "ния], [Год_поступления], [Год_окончания], [Образование], [Год_окончания_школы], " +
+                "[Номер_школы], [Специальность], [Форма_обучения], [Номер_телефона_учащегося], [Н" +
+                "омер_телефона_родителей], [Адрес], [Иностранный_язык], [Группа_здоровья], [Гражд" +
+                "анство], [Документ_подтверждающий_гражданство], [Многодетная_семья], [Инвалиднос" +
+                "ть], [Срок_действия], [Основание_поощрение], [Основание_взыскания], [Номер_дипло" +
+                "ма], [От_какого_числа], [Внутриние_перемещения], [Характеристика_выпускника], [Т" +
+                "рудоустройство_выпускника], [Продвижение_выпускника], [Пропуски_без_уважительных" +
+                "_причин]) VALUES (@Фамилия, @Имя, @Отчество, @Группа, @Дата_рождения, @Год_посту" +
+                "пления, @Год_окончания, @Образование, @Год_окончания_школы, @Номер_школы, @Специ" +
+                "альность, @Форма_обучения, @Номер_телефона_учащегося, @Номер_телефона_родителей," +
+                " @Адрес, @Иностранный_язык, @Группа_здоровья, @Гражданство, @Документ_подтвержда" +
+                "ющий_гражданство, @Многодетная_семья, @Инвалидность, @Срок_действия, @Основание_" +
+                "поощрение, @Основание_взыскания, @Номер_диплома, @От_какого_числа, @Внутриние_пе" +
+                "ремещения, @Характеристика_выпускника, @Трудоустройство_выпускника, @Продвижение" +
+                "_выпускника, @Пропуски_без_уважительных_причин);\r\nSELECT Id, Фамилия, Имя, Отчес" +
+                "тво, Группа, Дата_рождения, Год_поступления, Год_окончания, Образование, Год_око" +
+                "нчания_школы, Номер_школы, Специальность, Форма_обучения, Номер_телефона_учащего" +
+                "ся, Номер_телефона_родителей, Адрес, Иностранный_язык, Группа_здоровья, Гражданс" +
+                "тво, Документ_подтверждающий_гражданство, Многодетная_семья, Инвалидность, Срок_" +
+                "действия, Основание_поощрение, Основание_взыскания, Номер_диплома, От_какого_чис" +
+                "ла, Внутриние_перемещения, Характеристика_выпускника, Трудоустройство_выпускника" +
+                ", Продвижение_выпускника, Пропуски_без_уважительных_причин FROM students WHERE (" +
+                "Id = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Фамилия", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Фамилия", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Имя", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Имя", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Отчество", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Отчество", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Группа", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Группа", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Дата_рождения", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Дата_рождения", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Год_поступления", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Год_поступления", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Год_окончания", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Год_окончания", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Образование", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Образование", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Год_окончания_школы", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Год_окончания_школы", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_школы", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_школы", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Специальность", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Специальность", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Форма_обучения", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Форма_обучения", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_телефона_учащегося", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_телефона_учащегося", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_телефона_родителей", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_телефона_родителей", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Адрес", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Адрес", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Иностранный_язык", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Иностранный_язык", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Группа_здоровья", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Группа_здоровья", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Гражданство", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Гражданство", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Документ_подтверждающий_гражданство", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Документ_подтверждающий_гражданство", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Многодетная_семья", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Многодетная_семья", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Инвалидность", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Инвалидность", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Срок_действия", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Срок_действия", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Основание_поощрение", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Основание_поощрение", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Основание_взыскания", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Основание_взыскания", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_диплома", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_диплома", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@От_какого_числа", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "От_какого_числа", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Внутриние_перемещения", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Внутриние_перемещения", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Характеристика_выпускника", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Характеристика_выпускника", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Трудоустройство_выпускника", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Трудоустройство_выпускника", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Продвижение_выпускника", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Продвижение_выпускника", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Пропуски_без_уважительных_причин", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Пропуски_без_уважительных_причин", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[students] SET [Фамилия] = @Фамилия, [Имя] = @Имя, [Отчество] = @Отчество, [Группа] = @Группа, [Специальность] = @Специальность WHERE (([Id] = @Original_Id));
-SELECT Id, Фамилия, Имя, Отчество, Группа, Специальность FROM students WHERE (Id = @Id)";
+            this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[students] SET [Фамилия] = @Фамилия, [Имя] = @Имя, [Отчество] = @Отч" +
+                "ество, [Группа] = @Группа, [Дата_рождения] = @Дата_рождения, [Год_поступления] =" +
+                " @Год_поступления, [Год_окончания] = @Год_окончания, [Образование] = @Образовани" +
+                "е, [Год_окончания_школы] = @Год_окончания_школы, [Номер_школы] = @Номер_школы, [" +
+                "Специальность] = @Специальность, [Форма_обучения] = @Форма_обучения, [Номер_теле" +
+                "фона_учащегося] = @Номер_телефона_учащегося, [Номер_телефона_родителей] = @Номер" +
+                "_телефона_родителей, [Адрес] = @Адрес, [Иностранный_язык] = @Иностранный_язык, [" +
+                "Группа_здоровья] = @Группа_здоровья, [Гражданство] = @Гражданство, [Документ_под" +
+                "тверждающий_гражданство] = @Документ_подтверждающий_гражданство, [Многодетная_се" +
+                "мья] = @Многодетная_семья, [Инвалидность] = @Инвалидность, [Срок_действия] = @Ср" +
+                "ок_действия, [Основание_поощрение] = @Основание_поощрение, [Основание_взыскания]" +
+                " = @Основание_взыскания, [Номер_диплома] = @Номер_диплома, [От_какого_числа] = @" +
+                "От_какого_числа, [Внутриние_перемещения] = @Внутриние_перемещения, [Характеристи" +
+                "ка_выпускника] = @Характеристика_выпускника, [Трудоустройство_выпускника] = @Тру" +
+                "доустройство_выпускника, [Продвижение_выпускника] = @Продвижение_выпускника, [Пр" +
+                "опуски_без_уважительных_причин] = @Пропуски_без_уважительных_причин WHERE (([Id]" +
+                " = @Original_Id));\r\nSELECT Id, Фамилия, Имя, Отчество, Группа, Дата_рождения, Го" +
+                "д_поступления, Год_окончания, Образование, Год_окончания_школы, Номер_школы, Спе" +
+                "циальность, Форма_обучения, Номер_телефона_учащегося, Номер_телефона_родителей, " +
+                "Адрес, Иностранный_язык, Группа_здоровья, Гражданство, Документ_подтверждающий_г" +
+                "ражданство, Многодетная_семья, Инвалидность, Срок_действия, Основание_поощрение," +
+                " Основание_взыскания, Номер_диплома, От_какого_числа, Внутриние_перемещения, Хар" +
+                "актеристика_выпускника, Трудоустройство_выпускника, Продвижение_выпускника, Проп" +
+                "уски_без_уважительных_причин FROM students WHERE (Id = @Id)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Фамилия", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Фамилия", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Имя", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Имя", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Отчество", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Отчество", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Группа", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Группа", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Дата_рождения", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Дата_рождения", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Год_поступления", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Год_поступления", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Год_окончания", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Год_окончания", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Образование", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Образование", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Год_окончания_школы", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Год_окончания_школы", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_школы", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_школы", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Специальность", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Специальность", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Форма_обучения", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Форма_обучения", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_телефона_учащегося", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_телефона_учащегося", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_телефона_родителей", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_телефона_родителей", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Адрес", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Адрес", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Иностранный_язык", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Иностранный_язык", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Группа_здоровья", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Группа_здоровья", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Гражданство", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Гражданство", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Документ_подтверждающий_гражданство", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Документ_подтверждающий_гражданство", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Многодетная_семья", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Многодетная_семья", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Инвалидность", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Инвалидность", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Срок_действия", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Срок_действия", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Основание_поощрение", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Основание_поощрение", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Основание_взыскания", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Основание_взыскания", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Номер_диплома", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Номер_диплома", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@От_какого_числа", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "От_какого_числа", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Внутриние_перемещения", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Внутриние_перемещения", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Характеристика_выпускника", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Характеристика_выпускника", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Трудоустройство_выпускника", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Трудоустройство_выпускника", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Продвижение_выпускника", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Продвижение_выпускника", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Пропуски_без_уважительных_причин", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Пропуски_без_уважительных_причин", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
@@ -985,7 +2260,7 @@ SELECT Id, Фамилия, Имя, Отчество, Группа, Специа�
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT Id, Фамилия, Имя, Отчество, Группа, Специальность FROM dbo.students";
+            this._commandCollection[0].CommandText = @"SELECT Id, Фамилия, Имя, Отчество, Группа, Дата_рождения, Год_поступления, Год_окончания, Образование, Год_окончания_школы, Номер_школы, Специальность, Форма_обучения, Номер_телефона_учащегося, Номер_телефона_родителей, Адрес, Иностранный_язык, Группа_здоровья, Гражданство, Документ_подтверждающий_гражданство, Многодетная_семья, Инвалидность, Срок_действия, Основание_поощрение, Основание_взыскания, Номер_диплома, От_какого_числа, Внутриние_перемещения, Характеристика_выпускника, Трудоустройство_выпускника, Продвижение_выпускника, Пропуски_без_уважительных_причин FROM dbo.students";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -1068,7 +2343,38 @@ SELECT Id, Фамилия, Имя, Отчество, Группа, Специа�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string Фамилия, string Имя, string Отчество, string Группа, string Специальность) {
+        public virtual int Insert(
+                    string Фамилия, 
+                    string Имя, 
+                    string Отчество, 
+                    string Группа, 
+                    string Дата_рождения, 
+                    string Год_поступления, 
+                    string Год_окончания, 
+                    string Образование, 
+                    string Год_окончания_школы, 
+                    string Номер_школы, 
+                    string Специальность, 
+                    string Форма_обучения, 
+                    string Номер_телефона_учащегося, 
+                    string Номер_телефона_родителей, 
+                    string Адрес, 
+                    string Иностранный_язык, 
+                    string Группа_здоровья, 
+                    string Гражданство, 
+                    string Документ_подтверждающий_гражданство, 
+                    string Многодетная_семья, 
+                    string Инвалидность, 
+                    string Срок_действия, 
+                    string Основание_поощрение, 
+                    string Основание_взыскания, 
+                    string Номер_диплома, 
+                    string От_какого_числа, 
+                    string Внутриние_перемещения, 
+                    string Характеристика_выпускника, 
+                    string Трудоустройство_выпускника, 
+                    string Продвижение_выпускника, 
+                    string Пропуски_без_уважительных_причин) {
             if ((Фамилия == null)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -1093,11 +2399,167 @@ SELECT Id, Фамилия, Имя, Отчество, Группа, Специа�
             else {
                 this.Adapter.InsertCommand.Parameters[3].Value = ((string)(Группа));
             }
-            if ((Специальность == null)) {
+            if ((Дата_рождения == null)) {
                 this.Adapter.InsertCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[4].Value = ((string)(Специальность));
+                this.Adapter.InsertCommand.Parameters[4].Value = ((string)(Дата_рождения));
+            }
+            if ((Год_поступления == null)) {
+                this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[5].Value = ((string)(Год_поступления));
+            }
+            if ((Год_окончания == null)) {
+                this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(Год_окончания));
+            }
+            if ((Образование == null)) {
+                this.Adapter.InsertCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[7].Value = ((string)(Образование));
+            }
+            if ((Год_окончания_школы == null)) {
+                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[8].Value = ((string)(Год_окончания_школы));
+            }
+            if ((Номер_школы == null)) {
+                this.Adapter.InsertCommand.Parameters[9].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[9].Value = ((string)(Номер_школы));
+            }
+            if ((Специальность == null)) {
+                this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[10].Value = ((string)(Специальность));
+            }
+            if ((Форма_обучения == null)) {
+                this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[11].Value = ((string)(Форма_обучения));
+            }
+            if ((Номер_телефона_учащегося == null)) {
+                this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[12].Value = ((string)(Номер_телефона_учащегося));
+            }
+            if ((Номер_телефона_родителей == null)) {
+                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[13].Value = ((string)(Номер_телефона_родителей));
+            }
+            if ((Адрес == null)) {
+                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[14].Value = ((string)(Адрес));
+            }
+            if ((Иностранный_язык == null)) {
+                this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[15].Value = ((string)(Иностранный_язык));
+            }
+            if ((Группа_здоровья == null)) {
+                this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[16].Value = ((string)(Группа_здоровья));
+            }
+            if ((Гражданство == null)) {
+                this.Adapter.InsertCommand.Parameters[17].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[17].Value = ((string)(Гражданство));
+            }
+            if ((Документ_подтверждающий_гражданство == null)) {
+                this.Adapter.InsertCommand.Parameters[18].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[18].Value = ((string)(Документ_подтверждающий_гражданство));
+            }
+            if ((Многодетная_семья == null)) {
+                this.Adapter.InsertCommand.Parameters[19].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[19].Value = ((string)(Многодетная_семья));
+            }
+            if ((Инвалидность == null)) {
+                this.Adapter.InsertCommand.Parameters[20].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[20].Value = ((string)(Инвалидность));
+            }
+            if ((Срок_действия == null)) {
+                this.Adapter.InsertCommand.Parameters[21].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[21].Value = ((string)(Срок_действия));
+            }
+            if ((Основание_поощрение == null)) {
+                this.Adapter.InsertCommand.Parameters[22].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[22].Value = ((string)(Основание_поощрение));
+            }
+            if ((Основание_взыскания == null)) {
+                this.Adapter.InsertCommand.Parameters[23].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[23].Value = ((string)(Основание_взыскания));
+            }
+            if ((Номер_диплома == null)) {
+                this.Adapter.InsertCommand.Parameters[24].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[24].Value = ((string)(Номер_диплома));
+            }
+            if ((От_какого_числа == null)) {
+                this.Adapter.InsertCommand.Parameters[25].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[25].Value = ((string)(От_какого_числа));
+            }
+            if ((Внутриние_перемещения == null)) {
+                this.Adapter.InsertCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[26].Value = ((string)(Внутриние_перемещения));
+            }
+            if ((Характеристика_выпускника == null)) {
+                this.Adapter.InsertCommand.Parameters[27].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[27].Value = ((string)(Характеристика_выпускника));
+            }
+            if ((Трудоустройство_выпускника == null)) {
+                this.Adapter.InsertCommand.Parameters[28].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[28].Value = ((string)(Трудоустройство_выпускника));
+            }
+            if ((Продвижение_выпускника == null)) {
+                this.Adapter.InsertCommand.Parameters[29].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[29].Value = ((string)(Продвижение_выпускника));
+            }
+            if ((Пропуски_без_уважительных_причин == null)) {
+                this.Adapter.InsertCommand.Parameters[30].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[30].Value = ((string)(Пропуски_без_уважительных_причин));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -1119,7 +2581,40 @@ SELECT Id, Фамилия, Имя, Отчество, Группа, Специа�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string Фамилия, string Имя, string Отчество, string Группа, string Специальность, int Original_Id, int Id) {
+        public virtual int Update(
+                    string Фамилия, 
+                    string Имя, 
+                    string Отчество, 
+                    string Группа, 
+                    string Дата_рождения, 
+                    string Год_поступления, 
+                    string Год_окончания, 
+                    string Образование, 
+                    string Год_окончания_школы, 
+                    string Номер_школы, 
+                    string Специальность, 
+                    string Форма_обучения, 
+                    string Номер_телефона_учащегося, 
+                    string Номер_телефона_родителей, 
+                    string Адрес, 
+                    string Иностранный_язык, 
+                    string Группа_здоровья, 
+                    string Гражданство, 
+                    string Документ_подтверждающий_гражданство, 
+                    string Многодетная_семья, 
+                    string Инвалидность, 
+                    string Срок_действия, 
+                    string Основание_поощрение, 
+                    string Основание_взыскания, 
+                    string Номер_диплома, 
+                    string От_какого_числа, 
+                    string Внутриние_перемещения, 
+                    string Характеристика_выпускника, 
+                    string Трудоустройство_выпускника, 
+                    string Продвижение_выпускника, 
+                    string Пропуски_без_уважительных_причин, 
+                    int Original_Id, 
+                    int Id) {
             if ((Фамилия == null)) {
                 this.Adapter.UpdateCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -1144,14 +2639,170 @@ SELECT Id, Фамилия, Имя, Отчество, Группа, Специа�
             else {
                 this.Adapter.UpdateCommand.Parameters[3].Value = ((string)(Группа));
             }
-            if ((Специальность == null)) {
+            if ((Дата_рождения == null)) {
                 this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(Специальность));
+                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(Дата_рождения));
             }
-            this.Adapter.UpdateCommand.Parameters[5].Value = ((int)(Original_Id));
-            this.Adapter.UpdateCommand.Parameters[6].Value = ((int)(Id));
+            if ((Год_поступления == null)) {
+                this.Adapter.UpdateCommand.Parameters[5].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[5].Value = ((string)(Год_поступления));
+            }
+            if ((Год_окончания == null)) {
+                this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(Год_окончания));
+            }
+            if ((Образование == null)) {
+                this.Adapter.UpdateCommand.Parameters[7].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[7].Value = ((string)(Образование));
+            }
+            if ((Год_окончания_школы == null)) {
+                this.Adapter.UpdateCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((string)(Год_окончания_школы));
+            }
+            if ((Номер_школы == null)) {
+                this.Adapter.UpdateCommand.Parameters[9].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[9].Value = ((string)(Номер_школы));
+            }
+            if ((Специальность == null)) {
+                this.Adapter.UpdateCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((string)(Специальность));
+            }
+            if ((Форма_обучения == null)) {
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((string)(Форма_обучения));
+            }
+            if ((Номер_телефона_учащегося == null)) {
+                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((string)(Номер_телефона_учащегося));
+            }
+            if ((Номер_телефона_родителей == null)) {
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((string)(Номер_телефона_родителей));
+            }
+            if ((Адрес == null)) {
+                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((string)(Адрес));
+            }
+            if ((Иностранный_язык == null)) {
+                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((string)(Иностранный_язык));
+            }
+            if ((Группа_здоровья == null)) {
+                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((string)(Группа_здоровья));
+            }
+            if ((Гражданство == null)) {
+                this.Adapter.UpdateCommand.Parameters[17].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(Гражданство));
+            }
+            if ((Документ_подтверждающий_гражданство == null)) {
+                this.Adapter.UpdateCommand.Parameters[18].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((string)(Документ_подтверждающий_гражданство));
+            }
+            if ((Многодетная_семья == null)) {
+                this.Adapter.UpdateCommand.Parameters[19].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[19].Value = ((string)(Многодетная_семья));
+            }
+            if ((Инвалидность == null)) {
+                this.Adapter.UpdateCommand.Parameters[20].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((string)(Инвалидность));
+            }
+            if ((Срок_действия == null)) {
+                this.Adapter.UpdateCommand.Parameters[21].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[21].Value = ((string)(Срок_действия));
+            }
+            if ((Основание_поощрение == null)) {
+                this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[22].Value = ((string)(Основание_поощрение));
+            }
+            if ((Основание_взыскания == null)) {
+                this.Adapter.UpdateCommand.Parameters[23].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[23].Value = ((string)(Основание_взыскания));
+            }
+            if ((Номер_диплома == null)) {
+                this.Adapter.UpdateCommand.Parameters[24].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[24].Value = ((string)(Номер_диплома));
+            }
+            if ((От_какого_числа == null)) {
+                this.Adapter.UpdateCommand.Parameters[25].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[25].Value = ((string)(От_какого_числа));
+            }
+            if ((Внутриние_перемещения == null)) {
+                this.Adapter.UpdateCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[26].Value = ((string)(Внутриние_перемещения));
+            }
+            if ((Характеристика_выпускника == null)) {
+                this.Adapter.UpdateCommand.Parameters[27].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[27].Value = ((string)(Характеристика_выпускника));
+            }
+            if ((Трудоустройство_выпускника == null)) {
+                this.Adapter.UpdateCommand.Parameters[28].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[28].Value = ((string)(Трудоустройство_выпускника));
+            }
+            if ((Продвижение_выпускника == null)) {
+                this.Adapter.UpdateCommand.Parameters[29].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[29].Value = ((string)(Продвижение_выпускника));
+            }
+            if ((Пропуски_без_уважительных_причин == null)) {
+                this.Adapter.UpdateCommand.Parameters[30].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[30].Value = ((string)(Пропуски_без_уважительных_причин));
+            }
+            this.Adapter.UpdateCommand.Parameters[31].Value = ((int)(Original_Id));
+            this.Adapter.UpdateCommand.Parameters[32].Value = ((int)(Id));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -1172,8 +2823,40 @@ SELECT Id, Фамилия, Имя, Отчество, Группа, Специа�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string Фамилия, string Имя, string Отчество, string Группа, string Специальность, int Original_Id) {
-            return this.Update(Фамилия, Имя, Отчество, Группа, Специальность, Original_Id, Original_Id);
+        public virtual int Update(
+                    string Фамилия, 
+                    string Имя, 
+                    string Отчество, 
+                    string Группа, 
+                    string Дата_рождения, 
+                    string Год_поступления, 
+                    string Год_окончания, 
+                    string Образование, 
+                    string Год_окончания_школы, 
+                    string Номер_школы, 
+                    string Специальность, 
+                    string Форма_обучения, 
+                    string Номер_телефона_учащегося, 
+                    string Номер_телефона_родителей, 
+                    string Адрес, 
+                    string Иностранный_язык, 
+                    string Группа_здоровья, 
+                    string Гражданство, 
+                    string Документ_подтверждающий_гражданство, 
+                    string Многодетная_семья, 
+                    string Инвалидность, 
+                    string Срок_действия, 
+                    string Основание_поощрение, 
+                    string Основание_взыскания, 
+                    string Номер_диплома, 
+                    string От_какого_числа, 
+                    string Внутриние_перемещения, 
+                    string Характеристика_выпускника, 
+                    string Трудоустройство_выпускника, 
+                    string Продвижение_выпускника, 
+                    string Пропуски_без_уважительных_причин, 
+                    int Original_Id) {
+            return this.Update(Фамилия, Имя, Отчество, Группа, Дата_рождения, Год_поступления, Год_окончания, Образование, Год_окончания_школы, Номер_школы, Специальность, Форма_обучения, Номер_телефона_учащегося, Номер_телефона_родителей, Адрес, Иностранный_язык, Группа_здоровья, Гражданство, Документ_подтверждающий_гражданство, Многодетная_семья, Инвалидность, Срок_действия, Основание_поощрение, Основание_взыскания, Номер_диплома, От_какого_числа, Внутриние_перемещения, Характеристика_выпускника, Трудоустройство_выпускника, Продвижение_выпускника, Пропуски_без_уважительных_причин, Original_Id, Original_Id);
         }
     }
     
