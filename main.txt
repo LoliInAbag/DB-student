@@ -1,4 +1,4 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,14 +31,12 @@ namespace studentsDB
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-            // TODO: РґР°РЅРЅР°СЏ СЃС‚СЂРѕРєР° РєРѕРґР° РїРѕР·РІРѕР»СЏРµС‚ Р·Р°РіСЂСѓР·РёС‚СЊ РґР°РЅРЅС‹Рµ РІ С‚Р°Р±Р»РёС†Сѓ "eFDbContextDataSet.Books". РџСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРјРµС‰РµРЅР° РёР»Рё СѓРґР°Р»РµРЅР°.
-            this.booksTableAdapter.Fill(this.eFDbContextDataSet.Books);
-            // TODO: РґР°РЅРЅР°СЏ СЃС‚СЂРѕРєР° РєРѕРґР° РїРѕР·РІРѕР»СЏРµС‚ Р·Р°РіСЂСѓР·РёС‚СЊ РґР°РЅРЅС‹Рµ РІ С‚Р°Р±Р»РёС†Сѓ "eFDbContextDataSet.Books". РџСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРјРµС‰РµРЅР° РёР»Рё СѓРґР°Р»РµРЅР°.
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "eFDbContextDataSet.Books". При необходимости она может быть перемещена или удалена.
             this.booksTableAdapter.Fill(this.eFDbContextDataSet.Books);
 
             Reset();
             FillDataGridView();
-            // TODO: РґР°РЅРЅР°СЏ СЃС‚СЂРѕРєР° РєРѕРґР° РїРѕР·РІРѕР»СЏРµС‚ Р·Р°РіСЂСѓР·РёС‚СЊ РґР°РЅРЅС‹Рµ РІ С‚Р°Р±Р»РёС†Сѓ "eFDbContextDataSet1.students". РџСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРјРµС‰РµРЅР° РёР»Рё СѓРґР°Р»РµРЅР°.
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "eFDbContextDataSet1.students". При необходимости она может быть перемещена или удалена.
             this.booksTableAdapter.Fill(this.eFDbContextDataSet.Books);
 
 
@@ -84,29 +82,29 @@ namespace studentsDB
                 SqlCommand sqlCmd = new SqlCommand("DeleteProcedure", sqlCon);
                 sqlCmd.CommandType = CommandType.StoredProcedure;
 
-                sqlCmd.Parameters.AddWithValue("@BookId", BookId);
+                sqlCmd.Parameters.AddWithValue("@Id", BookId);
                 sqlCmd.ExecuteNonQuery();
-                MessageBox.Show("РЈРґР°Р»РµРЅРѕ");
+                MessageBox.Show("Удалено");
                 Reset();
                 FillDataGridView();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "РћС€РёР±РєР°");
+                MessageBox.Show(ex.Message, "Ошибка");
 
             }
         }
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            // TODO: РґР°РЅРЅР°СЏ СЃС‚СЂРѕРєР° РєРѕРґР° РїРѕР·РІРѕР»СЏРµС‚ Р·Р°РіСЂСѓР·РёС‚СЊ РґР°РЅРЅС‹Рµ РІ С‚Р°Р±Р»РёС†Сѓ "eFDbContextDataSet1.students". РџСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРјРµС‰РµРЅР° РёР»Рё СѓРґР°Р»РµРЅР°.
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "eFDbContextDataSet1.students". При необходимости она может быть перемещена или удалена.
             this.booksTableAdapter.Update(this.eFDbContextDataSet.Books);
             try
             {
                 if (sqlCon.State == ConnectionState.Closed)
                     sqlCon.Open();
 
-                 if (button5.Text == "РЎРѕС…СЂР°РЅРёС‚СЊ")
+                 if (button5.Text == "Сохранить")
                 {
                 SqlCommand sqlCmd = new SqlCommand("addORedit", sqlCon);
                 sqlCmd.CommandType = CommandType.StoredProcedure;
@@ -114,37 +112,37 @@ namespace studentsDB
                 sqlCmd.Parameters.AddWithValue("@BookId", 0);
                 sqlCmd.Parameters.AddWithValue("@name", textBox1.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@author", textBox2.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РћС‚С‡РµСЃС‚РІРѕ", textBox3.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Отчество", textBox3.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@description", textBox4.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р”Р°С‚Р°_СЂРѕР¶РґРµРЅРёСЏ", textBox5.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РїРѕСЃС‚СѓРїР»РµРЅРёСЏ", textBox6.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РѕРєРѕРЅС‡Р°РЅРёСЏ", textBox7.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РћР±СЂР°Р·РѕРІР°РЅРёРµ", textBox8.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РѕРєРѕРЅС‡Р°РЅРёСЏ_С€РєРѕР»С‹", textBox9.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РќРѕРјРµСЂ_С€РєРѕР»С‹", textBox10.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Дата_рождения", textBox5.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Год_поступления", textBox6.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Год_окончания", textBox7.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Образование", textBox8.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Год_окончания_школы", textBox9.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Номер_школы", textBox10.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@genre", textBox11.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@year", textBox12.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@picture", textBox13.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РќРѕРјРµСЂ_С‚РµР»РµС„РѕРЅР°_СЂРѕРґРёС‚РµР»РµР№", textBox14.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Номер_телефона_родителей", textBox14.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@url", textBox15.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@dimensions", textBox16.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@weight", textBox17.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ", textBox18.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р”РѕРєСѓРјРµРЅС‚_РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№_РіСЂР°Р¶РґР°РЅСЃС‚РІРѕ", textBox19.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РњРЅРѕРіРѕРґРµС‚РЅР°СЏ_СЃРµРјСЊСЏ", textBox20.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Гражданство", textBox18.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Документ_подтверждающий_гражданство", textBox19.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Многодетная_семья", textBox20.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@barcode", textBox21.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РЎСЂРѕРє_РґРµР№СЃС‚РІРёСЏ", textBox22.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РћСЃРЅРѕРІР°РЅРёРµ_РїРѕРѕС‰СЂРµРЅРёРµ", textBox23.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РћСЃРЅРѕРІР°РЅРёРµ_РІР·С‹СЃРєР°РЅРёСЏ", textBox24.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Срок_действия", textBox22.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Основание_поощрение", textBox23.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Основание_взыскания", textBox24.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@media", textBox25.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РћС‚_РєР°РєРѕРіРѕ_С‡РёСЃР»Р°", textBox26.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@Р’РЅСѓС‚СЂРёРЅРёРµ_РїРµСЂРµРјРµС‰РµРЅРёСЏ", textBox27.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°_РІС‹РїСѓСЃРєРЅРёРєР°", textBox28.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РўСЂСѓРґРѕСѓСЃС‚СЂРѕР№СЃС‚РІРѕ_РІС‹РїСѓСЃРєРЅРёРєР°", textBox29.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@РџСЂРѕРґРІРёР¶РµРЅРёРµ_РІС‹РїСѓСЃРєРЅРёРєР°", textBox30.Text.Trim());
-                sqlCmd.Parameters.AddWithValue("@price", textBox31.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@От_какого_числа", textBox26.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Внутриние_перемещения", textBox27.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Характеристика_выпускника", textBox28.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Трудоустройство_выпускника", textBox29.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Продвижение_выпускника", textBox30.Text.Trim());
+                sqlCmd.Parameters.AddWithValue("@Пропуски_без_уважительных_причин", textBox31.Text.Trim());
                 sqlCmd.ExecuteNonQuery();
-                MessageBox.Show("РЎРѕС…СЂР°РЅРµРЅРѕ");
+                MessageBox.Show("Сохранено");
                   }
                  else
                   {
@@ -154,43 +152,43 @@ namespace studentsDB
                       sqlCmd.Parameters.AddWithValue("@BookId", BookId);
                       sqlCmd.Parameters.AddWithValue("@name", textBox1.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@author", textBox2.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РћС‚С‡РµСЃС‚РІРѕ", textBox3.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Отчество", textBox3.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@description", textBox4.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р”Р°С‚Р°_СЂРѕР¶РґРµРЅРёСЏ", textBox5.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РїРѕСЃС‚СѓРїР»РµРЅРёСЏ", textBox6.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РѕРєРѕРЅС‡Р°РЅРёСЏ", textBox7.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РћР±СЂР°Р·РѕРІР°РЅРёРµ", textBox8.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РѕРєРѕРЅС‡Р°РЅРёСЏ_С€РєРѕР»С‹", textBox9.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РќРѕРјРµСЂ_С€РєРѕР»С‹", textBox10.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Дата_рождения", textBox5.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Год_поступления", textBox6.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Год_окончания", textBox7.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Образование", textBox8.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Год_окончания_школы", textBox9.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Номер_школы", textBox10.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@genre", textBox11.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@year", textBox12.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@picture", textBox13.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РќРѕРјРµСЂ_С‚РµР»РµС„РѕРЅР°_СЂРѕРґРёС‚РµР»РµР№", textBox14.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Номер_телефона_родителей", textBox14.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@url", textBox15.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@dimensions", textBox16.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@weight", textBox17.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ", textBox18.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р”РѕРєСѓРјРµРЅС‚_РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№_РіСЂР°Р¶РґР°РЅСЃС‚РІРѕ", textBox19.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РњРЅРѕРіРѕРґРµС‚РЅР°СЏ_СЃРµРјСЊСЏ", textBox20.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Гражданство", textBox18.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Документ_подтверждающий_гражданство", textBox19.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Многодетная_семья", textBox20.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@barcode", textBox21.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РЎСЂРѕРє_РґРµР№СЃС‚РІРёСЏ", textBox22.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РћСЃРЅРѕРІР°РЅРёРµ_РїРѕРѕС‰СЂРµРЅРёРµ", textBox23.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РћСЃРЅРѕРІР°РЅРёРµ_РІР·С‹СЃРєР°РЅРёСЏ", textBox24.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Срок_действия", textBox22.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Основание_поощрение", textBox23.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Основание_взыскания", textBox24.Text.Trim());
                       sqlCmd.Parameters.AddWithValue("@media", textBox25.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РћС‚_РєР°РєРѕРіРѕ_С‡РёСЃР»Р°", textBox26.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@Р’РЅСѓС‚СЂРёРЅРёРµ_РїРµСЂРµРјРµС‰РµРЅРёСЏ", textBox27.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°_РІС‹РїСѓСЃРєРЅРёРєР°", textBox28.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РўСЂСѓРґРѕСѓСЃС‚СЂРѕР№СЃС‚РІРѕ_РІС‹РїСѓСЃРєРЅРёРєР°", textBox29.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@РџСЂРѕРґРІРёР¶РµРЅРёРµ_РІС‹РїСѓСЃРєРЅРёРєР°", textBox30.Text.Trim());
-                      sqlCmd.Parameters.AddWithValue("@price", textBox31.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@От_какого_числа", textBox26.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Внутриние_перемещения", textBox27.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Характеристика_выпускника", textBox28.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Трудоустройство_выпускника", textBox29.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Продвижение_выпускника", textBox30.Text.Trim());
+                      sqlCmd.Parameters.AddWithValue("@Пропуски_без_уважительных_причин", textBox31.Text.Trim());
                       sqlCmd.ExecuteNonQuery();
-                      MessageBox.Show("РћР±РЅРѕРІР»РµРЅРѕ");
+                      MessageBox.Show("Обновлено");
                   }
             }
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "РћС€РёР±РєР°");
+                MessageBox.Show(ex.Message, "Ошибка");
             }
             finally
             {
@@ -216,7 +214,7 @@ namespace studentsDB
         {
             /*if (this.txtSearch.Text != String.Empty)
             {
-                this.studentsBindingSource1.Filter = String.Format("[Р¤Р°РјРёР»РёСЏ] LIKE '*{0}*' OR [РРјСЏ] LIKE '*{0}*' OR [Р“СЂСѓРїРїР°] LIKE '*{0}*'  OR [РЎРїРµС†РёР°Р»СЊРЅРѕСЃС‚СЊ] LIKE '*{0}* 'OR [РРЅРѕСЃС‚СЂР°РЅРЅС‹Р№_СЏР·С‹Рє] LIKE '*{0}*' OR [РњРЅРѕРіРѕРґРµС‚РЅР°СЏ_СЃРµРјСЊСЏ] LIKE '*{0}*' OR [РќРѕРјРµСЂ_РґРёРїР»РѕРјР°] LIKE '*{0}*' OR [Р¤РѕСЂРјР°_РѕР±СѓС‡РµРЅРёСЏ ] LIKE '*{0}*' ", this.txtSearch.Text);
+                this.studentsBindingSource1.Filter = String.Format("[Фамилия] LIKE '*{0}*' OR [Имя] LIKE '*{0}*' OR [Группа] LIKE '*{0}*'  OR [Специальность] LIKE '*{0}* 'OR [Иностранный_язык] LIKE '*{0}*' OR [Многодетная_семья] LIKE '*{0}*' OR [Номер_диплома] LIKE '*{0}*' OR [Форма_обучения ] LIKE '*{0}*' ", this.txtSearch.Text);
             }
             else
             {
@@ -228,7 +226,7 @@ namespace studentsDB
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "РћС€РёР±РєР°");
+                MessageBox.Show(ex.Message, "Ошибка");
             }
 
         }
@@ -312,7 +310,7 @@ namespace studentsDB
                 textBox30.Text = dataGridView1.CurrentRow.Cells[30].Value.ToString();
                 textBox31.Text = dataGridView1.CurrentRow.Cells[31].Value.ToString();
 
-                button5.Text = "РћР±РЅРѕРІРёС‚СЊ";
+                button5.Text = "Обновить";
                 button1.Enabled = true;
             }
         }
@@ -332,7 +330,7 @@ namespace studentsDB
                     sqlCon.Open();
 
                     this.booksTableAdapter.Update(this.eFDbContextDataSet.Books);
-                    // TODO: РґР°РЅРЅР°СЏ СЃС‚СЂРѕРєР° РєРѕРґР° РїРѕР·РІРѕР»СЏРµС‚ Р·Р°РіСЂСѓР·РёС‚СЊ РґР°РЅРЅС‹Рµ РІ С‚Р°Р±Р»РёС†Сѓ "eFDbContextDataSet1.students". РџСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РѕРЅР° РјРѕР¶РµС‚ Р±С‹С‚СЊ РїРµСЂРµРјРµС‰РµРЅР° РёР»Рё СѓРґР°Р»РµРЅР°.
+                    // TODO: данная строка кода позволяет загрузить данные в таблицу "eFDbContextDataSet1.students". При необходимости она может быть перемещена или удалена.
                     this.booksTableAdapter.Update(this.eFDbContextDataSet.Books);
                     sqlCon.Open();
                     SqlCommand sqlCmd = new SqlCommand("addORedit", sqlCon);
@@ -341,43 +339,43 @@ namespace studentsDB
                     sqlCmd.Parameters.AddWithValue("@BookId", BookId);
                     sqlCmd.Parameters.AddWithValue("@name", textBox1.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@author", textBox2.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РћС‚С‡РµСЃС‚РІРѕ", textBox3.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Отчество", textBox3.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@description", textBox4.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р”Р°С‚Р°_СЂРѕР¶РґРµРЅРёСЏ", textBox5.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РїРѕСЃС‚СѓРїР»РµРЅРёСЏ", textBox6.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РѕРєРѕРЅС‡Р°РЅРёСЏ", textBox7.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РћР±СЂР°Р·РѕРІР°РЅРёРµ", textBox8.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р“РѕРґ_РѕРєРѕРЅС‡Р°РЅРёСЏ_С€РєРѕР»С‹", textBox9.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РќРѕРјРµСЂ_С€РєРѕР»С‹", textBox10.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Дата_рождения", textBox5.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Год_поступления", textBox6.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Год_окончания", textBox7.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Образование", textBox8.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Год_окончания_школы", textBox9.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Номер_школы", textBox10.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@genre", textBox11.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@year", textBox12.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@picture", textBox13.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РќРѕРјРµСЂ_С‚РµР»РµС„РѕРЅР°_СЂРѕРґРёС‚РµР»РµР№", textBox14.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Номер_телефона_родителей", textBox14.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@url", textBox15.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@dimensions", textBox16.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@weight", textBox17.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р“СЂР°Р¶РґР°РЅСЃС‚РІРѕ", textBox18.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р”РѕРєСѓРјРµРЅС‚_РїРѕРґС‚РІРµСЂР¶РґР°СЋС‰РёР№_РіСЂР°Р¶РґР°РЅСЃС‚РІРѕ", textBox19.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РњРЅРѕРіРѕРґРµС‚РЅР°СЏ_СЃРµРјСЊСЏ", textBox20.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Гражданство", textBox18.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Документ_подтверждающий_гражданство", textBox19.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Многодетная_семья", textBox20.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@barcode", textBox21.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РЎСЂРѕРє_РґРµР№СЃС‚РІРёСЏ", textBox22.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РћСЃРЅРѕРІР°РЅРёРµ_РїРѕРѕС‰СЂРµРЅРёРµ", textBox23.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РћСЃРЅРѕРІР°РЅРёРµ_РІР·С‹СЃРєР°РЅРёСЏ", textBox24.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Срок_действия", textBox22.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Основание_поощрение", textBox23.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Основание_взыскания", textBox24.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@media", textBox25.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РћС‚_РєР°РєРѕРіРѕ_С‡РёСЃР»Р°", textBox26.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@Р’РЅСѓС‚СЂРёРЅРёРµ_РїРµСЂРµРјРµС‰РµРЅРёСЏ", textBox27.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєР°_РІС‹РїСѓСЃРєРЅРёРєР°", textBox28.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РўСЂСѓРґРѕСѓСЃС‚СЂРѕР№СЃС‚РІРѕ_РІС‹РїСѓСЃРєРЅРёРєР°", textBox29.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@РџСЂРѕРґРІРёР¶РµРЅРёРµ_РІС‹РїСѓСЃРєРЅРёРєР°", textBox30.Text.Trim());
-                    sqlCmd.Parameters.AddWithValue("@price", textBox31.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@От_какого_числа", textBox26.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Внутриние_перемещения", textBox27.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Характеристика_выпускника", textBox28.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Трудоустройство_выпускника", textBox29.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Продвижение_выпускника", textBox30.Text.Trim());
+                    sqlCmd.Parameters.AddWithValue("@Пропуски_без_уважительных_причин", textBox31.Text.Trim());
                     sqlCmd.ExecuteNonQuery();
-                    MessageBox.Show("РћР±РЅРѕРІР»РµРЅРѕ");
+                    MessageBox.Show("Обновлено");
                 }
             }
 
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"РћР±РЅРѕРІР»РµРЅРѕ");
+                MessageBox.Show(ex.Message,"Обновлено");
             }
             finally
             {
@@ -388,7 +386,7 @@ namespace studentsDB
         void Reset()
         {
             textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = textBox6.Text = textBox7.Text = textBox8.Text = textBox9.Text = textBox10.Text = textBox11.Text = textBox12.Text = textBox13.Text = textBox14.Text = textBox15.Text = textBox16.Text = textBox17.Text = textBox18.Text = textBox19.Text = textBox20.Text = textBox21.Text = textBox22.Text = textBox23.Text = textBox24.Text = textBox25.Text = textBox26.Text = textBox27.Text = textBox28.Text = textBox29.Text = textBox30.Text = textBox31.Text = "";
-            button5.Text = "РЎРѕС…СЂР°РЅРёС‚СЊ";
+            button5.Text = "Сохранить";
             BookId = 0;
             button1.Enabled = false;
 
@@ -437,7 +435,7 @@ namespace studentsDB
                 textBox30.Text = dataGridView1.CurrentRow.Cells[30].Value.ToString();
                 textBox31.Text = dataGridView1.CurrentRow.Cells[31].Value.ToString();
 
-                button5.Text = "РћР±РЅРѕРІРёС‚СЊ";
+                button5.Text = "Обновить";
                 button1.Enabled = true;
             }
         }

@@ -32,11 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.EditPanel = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -101,48 +101,46 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.eFDbContextDataSet = new studentsDB.EFDbContextDataSet();
-            this.studentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.studentsTableAdapter = new studentsDB.EFDbContextDataSetTableAdapters.studentsTableAdapter();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.фамилияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.имяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.booksBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.booksTableAdapter = new studentsDB.EFDbContextDataSetTableAdapters.BooksTableAdapter();
+            this.bookIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.authorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.отчествоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.группаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датарожденияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.годпоступленияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.годокончанияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.образованиеDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.годокончанияшколыDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.номершколыDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.специальностьDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.формаобученияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.номертелефонаучащегосяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.genreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.номертелефонародителейDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.адресDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.иностранныйязыкDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.группаздоровьяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.urlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dimensionsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.weightDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.гражданствоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.документподтверждающийгражданствоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.многодетнаясемьяDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.инвалидностьDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.barcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.срокдействияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.основаниепоощрениеDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.основаниевзысканияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.номердипломаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mediaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.откакогочислаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.внутриниеперемещенияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.характеристикавыпускникаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.трудоустройствовыпускникаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.продвижениевыпускникаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.пропускибезуважительныхпричинDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.EditPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.eFDbContextDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -181,17 +179,6 @@
             this.button9.Text = "Сброс";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(1810, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button7
             // 
@@ -233,6 +220,17 @@
             this.button5.Text = "Сохранить";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.Location = new System.Drawing.Point(1810, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // EditPanel
             // 
@@ -893,39 +891,39 @@
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.фамилияDataGridViewTextBoxColumn,
-            this.имяDataGridViewTextBoxColumn,
+            this.bookIdDataGridViewTextBoxColumn,
+            this.nameDataGridViewTextBoxColumn,
+            this.authorDataGridViewTextBoxColumn,
             this.отчествоDataGridViewTextBoxColumn,
-            this.группаDataGridViewTextBoxColumn,
+            this.descriptionDataGridViewTextBoxColumn,
             this.датарожденияDataGridViewTextBoxColumn,
             this.годпоступленияDataGridViewTextBoxColumn,
             this.годокончанияDataGridViewTextBoxColumn,
             this.образованиеDataGridViewTextBoxColumn,
             this.годокончанияшколыDataGridViewTextBoxColumn,
             this.номершколыDataGridViewTextBoxColumn,
-            this.специальностьDataGridViewTextBoxColumn,
-            this.формаобученияDataGridViewTextBoxColumn,
-            this.номертелефонаучащегосяDataGridViewTextBoxColumn,
+            this.genreDataGridViewTextBoxColumn,
+            this.yearDataGridViewTextBoxColumn,
+            this.pictureDataGridViewTextBoxColumn,
             this.номертелефонародителейDataGridViewTextBoxColumn,
-            this.адресDataGridViewTextBoxColumn,
-            this.иностранныйязыкDataGridViewTextBoxColumn,
-            this.группаздоровьяDataGridViewTextBoxColumn,
+            this.urlDataGridViewTextBoxColumn,
+            this.dimensionsDataGridViewTextBoxColumn,
+            this.weightDataGridViewTextBoxColumn,
             this.гражданствоDataGridViewTextBoxColumn,
             this.документподтверждающийгражданствоDataGridViewTextBoxColumn,
             this.многодетнаясемьяDataGridViewTextBoxColumn,
-            this.инвалидностьDataGridViewTextBoxColumn,
+            this.barcodeDataGridViewTextBoxColumn,
             this.срокдействияDataGridViewTextBoxColumn,
             this.основаниепоощрениеDataGridViewTextBoxColumn,
             this.основаниевзысканияDataGridViewTextBoxColumn,
-            this.номердипломаDataGridViewTextBoxColumn,
+            this.mediaDataGridViewTextBoxColumn,
             this.откакогочислаDataGridViewTextBoxColumn,
             this.внутриниеперемещенияDataGridViewTextBoxColumn,
             this.характеристикавыпускникаDataGridViewTextBoxColumn,
             this.трудоустройствовыпускникаDataGridViewTextBoxColumn,
             this.продвижениевыпускникаDataGridViewTextBoxColumn,
-            this.пропускибезуважительныхпричинDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.studentsBindingSource;
+            this.priceDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.booksBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(7, 435);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1800, 300);
@@ -937,36 +935,36 @@
             this.eFDbContextDataSet.DataSetName = "EFDbContextDataSet";
             this.eFDbContextDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // studentsBindingSource
+            // booksBindingSource
             // 
-            this.studentsBindingSource.DataMember = "students";
-            this.studentsBindingSource.DataSource = this.eFDbContextDataSet;
+            this.booksBindingSource.DataMember = "Books";
+            this.booksBindingSource.DataSource = this.eFDbContextDataSet;
             // 
-            // studentsTableAdapter
+            // booksTableAdapter
             // 
-            this.studentsTableAdapter.ClearBeforeFill = true;
+            this.booksTableAdapter.ClearBeforeFill = true;
             // 
-            // idDataGridViewTextBoxColumn
+            // bookIdDataGridViewTextBoxColumn
             // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Id учащегося";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn.Width = 104;
+            this.bookIdDataGridViewTextBoxColumn.DataPropertyName = "BookId";
+            this.bookIdDataGridViewTextBoxColumn.HeaderText = "BookId";
+            this.bookIdDataGridViewTextBoxColumn.Name = "bookIdDataGridViewTextBoxColumn";
+            this.bookIdDataGridViewTextBoxColumn.ReadOnly = true;
+            this.bookIdDataGridViewTextBoxColumn.Width = 79;
             // 
-            // фамилияDataGridViewTextBoxColumn
+            // nameDataGridViewTextBoxColumn
             // 
-            this.фамилияDataGridViewTextBoxColumn.DataPropertyName = "Фамилия";
-            this.фамилияDataGridViewTextBoxColumn.HeaderText = "Фамилия";
-            this.фамилияDataGridViewTextBoxColumn.Name = "фамилияDataGridViewTextBoxColumn";
-            this.фамилияDataGridViewTextBoxColumn.Width = 82;
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.Width = 65;
             // 
-            // имяDataGridViewTextBoxColumn
+            // authorDataGridViewTextBoxColumn
             // 
-            this.имяDataGridViewTextBoxColumn.DataPropertyName = "Имя";
-            this.имяDataGridViewTextBoxColumn.HeaderText = "Имя";
-            this.имяDataGridViewTextBoxColumn.Name = "имяDataGridViewTextBoxColumn";
-            this.имяDataGridViewTextBoxColumn.Width = 55;
+            this.authorDataGridViewTextBoxColumn.DataPropertyName = "author";
+            this.authorDataGridViewTextBoxColumn.HeaderText = "author";
+            this.authorDataGridViewTextBoxColumn.Name = "authorDataGridViewTextBoxColumn";
+            this.authorDataGridViewTextBoxColumn.Width = 74;
             // 
             // отчествоDataGridViewTextBoxColumn
             // 
@@ -975,33 +973,32 @@
             this.отчествоDataGridViewTextBoxColumn.Name = "отчествоDataGridViewTextBoxColumn";
             this.отчествоDataGridViewTextBoxColumn.Width = 80;
             // 
-            // группаDataGridViewTextBoxColumn
+            // descriptionDataGridViewTextBoxColumn
             // 
-            this.группаDataGridViewTextBoxColumn.DataPropertyName = "Группа";
-            this.группаDataGridViewTextBoxColumn.HeaderText = "Группа";
-            this.группаDataGridViewTextBoxColumn.Name = "группаDataGridViewTextBoxColumn";
-            this.группаDataGridViewTextBoxColumn.Width = 68;
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             // 
             // датарожденияDataGridViewTextBoxColumn
             // 
             this.датарожденияDataGridViewTextBoxColumn.DataPropertyName = "Дата_рождения";
-            this.датарожденияDataGridViewTextBoxColumn.HeaderText = "Дата рождения";
+            this.датарожденияDataGridViewTextBoxColumn.HeaderText = "Дата_рождения";
             this.датарожденияDataGridViewTextBoxColumn.Name = "датарожденияDataGridViewTextBoxColumn";
-            this.датарожденияDataGridViewTextBoxColumn.Width = 113;
+            this.датарожденияDataGridViewTextBoxColumn.Width = 120;
             // 
             // годпоступленияDataGridViewTextBoxColumn
             // 
             this.годпоступленияDataGridViewTextBoxColumn.DataPropertyName = "Год_поступления";
-            this.годпоступленияDataGridViewTextBoxColumn.HeaderText = "Год поступления";
+            this.годпоступленияDataGridViewTextBoxColumn.HeaderText = "Год_поступления";
             this.годпоступленияDataGridViewTextBoxColumn.Name = "годпоступленияDataGridViewTextBoxColumn";
-            this.годпоступленияDataGridViewTextBoxColumn.Width = 119;
+            this.годпоступленияDataGridViewTextBoxColumn.Width = 126;
             // 
             // годокончанияDataGridViewTextBoxColumn
             // 
             this.годокончанияDataGridViewTextBoxColumn.DataPropertyName = "Год_окончания";
-            this.годокончанияDataGridViewTextBoxColumn.HeaderText = "Год окончания";
+            this.годокончанияDataGridViewTextBoxColumn.HeaderText = "Год_окончания";
             this.годокончанияDataGridViewTextBoxColumn.Name = "годокончанияDataGridViewTextBoxColumn";
-            this.годокончанияDataGridViewTextBoxColumn.Width = 108;
+            this.годокончанияDataGridViewTextBoxColumn.Width = 115;
             // 
             // образованиеDataGridViewTextBoxColumn
             // 
@@ -1013,65 +1010,64 @@
             // годокончанияшколыDataGridViewTextBoxColumn
             // 
             this.годокончанияшколыDataGridViewTextBoxColumn.DataPropertyName = "Год_окончания_школы";
-            this.годокончанияшколыDataGridViewTextBoxColumn.HeaderText = "Год окончания школы";
+            this.годокончанияшколыDataGridViewTextBoxColumn.HeaderText = "Год_окончания_школы";
             this.годокончанияшколыDataGridViewTextBoxColumn.Name = "годокончанияшколыDataGridViewTextBoxColumn";
-            this.годокончанияшколыDataGridViewTextBoxColumn.Width = 133;
+            this.годокончанияшколыDataGridViewTextBoxColumn.Width = 160;
             // 
             // номершколыDataGridViewTextBoxColumn
             // 
             this.номершколыDataGridViewTextBoxColumn.DataPropertyName = "Номер_школы";
-            this.номершколыDataGridViewTextBoxColumn.HeaderText = "Номер школы";
+            this.номершколыDataGridViewTextBoxColumn.HeaderText = "Номер_школы";
             this.номершколыDataGridViewTextBoxColumn.Name = "номершколыDataGridViewTextBoxColumn";
-            this.номершколыDataGridViewTextBoxColumn.Width = 96;
+            this.номершколыDataGridViewTextBoxColumn.Width = 112;
             // 
-            // специальностьDataGridViewTextBoxColumn
+            // genreDataGridViewTextBoxColumn
             // 
-            this.специальностьDataGridViewTextBoxColumn.DataPropertyName = "Специальность";
-            this.специальностьDataGridViewTextBoxColumn.HeaderText = "Специальность";
-            this.специальностьDataGridViewTextBoxColumn.Name = "специальностьDataGridViewTextBoxColumn";
-            this.специальностьDataGridViewTextBoxColumn.Width = 111;
+            this.genreDataGridViewTextBoxColumn.DataPropertyName = "genre";
+            this.genreDataGridViewTextBoxColumn.HeaderText = "genre";
+            this.genreDataGridViewTextBoxColumn.Name = "genreDataGridViewTextBoxColumn";
+            this.genreDataGridViewTextBoxColumn.Width = 66;
             // 
-            // формаобученияDataGridViewTextBoxColumn
+            // yearDataGridViewTextBoxColumn
             // 
-            this.формаобученияDataGridViewTextBoxColumn.DataPropertyName = "Форма_обучения";
-            this.формаобученияDataGridViewTextBoxColumn.HeaderText = "Форма обучения";
-            this.формаобученияDataGridViewTextBoxColumn.Name = "формаобученияDataGridViewTextBoxColumn";
-            this.формаобученияDataGridViewTextBoxColumn.Width = 110;
+            this.yearDataGridViewTextBoxColumn.DataPropertyName = "year";
+            this.yearDataGridViewTextBoxColumn.HeaderText = "year";
+            this.yearDataGridViewTextBoxColumn.Name = "yearDataGridViewTextBoxColumn";
+            this.yearDataGridViewTextBoxColumn.Width = 59;
             // 
-            // номертелефонаучащегосяDataGridViewTextBoxColumn
+            // pictureDataGridViewTextBoxColumn
             // 
-            this.номертелефонаучащегосяDataGridViewTextBoxColumn.DataPropertyName = "Номер_телефона_учащегося";
-            this.номертелефонаучащегосяDataGridViewTextBoxColumn.HeaderText = "Номер телефона учащегося";
-            this.номертелефонаучащегосяDataGridViewTextBoxColumn.Name = "номертелефонаучащегосяDataGridViewTextBoxColumn";
-            this.номертелефонаучащегосяDataGridViewTextBoxColumn.Width = 162;
+            this.pictureDataGridViewTextBoxColumn.DataPropertyName = "picture";
+            this.pictureDataGridViewTextBoxColumn.HeaderText = "picture";
+            this.pictureDataGridViewTextBoxColumn.Name = "pictureDataGridViewTextBoxColumn";
+            this.pictureDataGridViewTextBoxColumn.Width = 76;
             // 
             // номертелефонародителейDataGridViewTextBoxColumn
             // 
             this.номертелефонародителейDataGridViewTextBoxColumn.DataPropertyName = "Номер_телефона_родителей";
-            this.номертелефонародителейDataGridViewTextBoxColumn.HeaderText = "Номер телефона родителей";
+            this.номертелефонародителейDataGridViewTextBoxColumn.HeaderText = "Номер_телефона_родителей";
             this.номертелефонародителейDataGridViewTextBoxColumn.Name = "номертелефонародителейDataGridViewTextBoxColumn";
-            this.номертелефонародителейDataGridViewTextBoxColumn.Width = 161;
+            this.номертелефонародителейDataGridViewTextBoxColumn.Width = 191;
             // 
-            // адресDataGridViewTextBoxColumn
+            // urlDataGridViewTextBoxColumn
             // 
-            this.адресDataGridViewTextBoxColumn.DataPropertyName = "Адрес";
-            this.адресDataGridViewTextBoxColumn.HeaderText = "Адрес";
-            this.адресDataGridViewTextBoxColumn.Name = "адресDataGridViewTextBoxColumn";
-            this.адресDataGridViewTextBoxColumn.Width = 64;
+            this.urlDataGridViewTextBoxColumn.DataPropertyName = "url";
+            this.urlDataGridViewTextBoxColumn.HeaderText = "url";
+            this.urlDataGridViewTextBoxColumn.Name = "urlDataGridViewTextBoxColumn";
+            this.urlDataGridViewTextBoxColumn.Width = 52;
             // 
-            // иностранныйязыкDataGridViewTextBoxColumn
+            // dimensionsDataGridViewTextBoxColumn
             // 
-            this.иностранныйязыкDataGridViewTextBoxColumn.DataPropertyName = "Иностранный_язык";
-            this.иностранныйязыкDataGridViewTextBoxColumn.HeaderText = "Иностранный язык";
-            this.иностранныйязыкDataGridViewTextBoxColumn.Name = "иностранныйязыкDataGridViewTextBoxColumn";
-            this.иностранныйязыкDataGridViewTextBoxColumn.Width = 121;
+            this.dimensionsDataGridViewTextBoxColumn.DataPropertyName = "dimensions";
+            this.dimensionsDataGridViewTextBoxColumn.HeaderText = "dimensions";
+            this.dimensionsDataGridViewTextBoxColumn.Name = "dimensionsDataGridViewTextBoxColumn";
             // 
-            // группаздоровьяDataGridViewTextBoxColumn
+            // weightDataGridViewTextBoxColumn
             // 
-            this.группаздоровьяDataGridViewTextBoxColumn.DataPropertyName = "Группа_здоровья";
-            this.группаздоровьяDataGridViewTextBoxColumn.HeaderText = "Группа здоровья";
-            this.группаздоровьяDataGridViewTextBoxColumn.Name = "группаздоровьяDataGridViewTextBoxColumn";
-            this.группаздоровьяDataGridViewTextBoxColumn.Width = 110;
+            this.weightDataGridViewTextBoxColumn.DataPropertyName = "weight";
+            this.weightDataGridViewTextBoxColumn.HeaderText = "weight";
+            this.weightDataGridViewTextBoxColumn.Name = "weightDataGridViewTextBoxColumn";
+            this.weightDataGridViewTextBoxColumn.Width = 74;
             // 
             // гражданствоDataGridViewTextBoxColumn
             // 
@@ -1082,92 +1078,93 @@
             // документподтверждающийгражданствоDataGridViewTextBoxColumn
             // 
             this.документподтверждающийгражданствоDataGridViewTextBoxColumn.DataPropertyName = "Документ_подтверждающий_гражданство";
-            this.документподтверждающийгражданствоDataGridViewTextBoxColumn.HeaderText = "Документ подтверждающий гражданство";
+            this.документподтверждающийгражданствоDataGridViewTextBoxColumn.HeaderText = "Документ_подтверждающий_гражданство";
             this.документподтверждающийгражданствоDataGridViewTextBoxColumn.Name = "документподтверждающийгражданствоDataGridViewTextBoxColumn";
-            this.документподтверждающийгражданствоDataGridViewTextBoxColumn.Width = 225;
+            this.документподтверждающийгражданствоDataGridViewTextBoxColumn.Width = 262;
             // 
             // многодетнаясемьяDataGridViewTextBoxColumn
             // 
             this.многодетнаясемьяDataGridViewTextBoxColumn.DataPropertyName = "Многодетная_семья";
-            this.многодетнаясемьяDataGridViewTextBoxColumn.HeaderText = "Многодетная семья";
+            this.многодетнаясемьяDataGridViewTextBoxColumn.HeaderText = "Многодетная_семья";
             this.многодетнаясемьяDataGridViewTextBoxColumn.Name = "многодетнаясемьяDataGridViewTextBoxColumn";
-            this.многодетнаясемьяDataGridViewTextBoxColumn.Width = 124;
+            this.многодетнаясемьяDataGridViewTextBoxColumn.Width = 143;
             // 
-            // инвалидностьDataGridViewTextBoxColumn
+            // barcodeDataGridViewTextBoxColumn
             // 
-            this.инвалидностьDataGridViewTextBoxColumn.DataPropertyName = "Инвалидность";
-            this.инвалидностьDataGridViewTextBoxColumn.HeaderText = "Инвалидность";
-            this.инвалидностьDataGridViewTextBoxColumn.Name = "инвалидностьDataGridViewTextBoxColumn";
-            this.инвалидностьDataGridViewTextBoxColumn.Width = 106;
+            this.barcodeDataGridViewTextBoxColumn.DataPropertyName = "barcode";
+            this.barcodeDataGridViewTextBoxColumn.HeaderText = "barcode";
+            this.barcodeDataGridViewTextBoxColumn.Name = "barcodeDataGridViewTextBoxColumn";
+            this.barcodeDataGridViewTextBoxColumn.Width = 79;
             // 
             // срокдействияDataGridViewTextBoxColumn
             // 
             this.срокдействияDataGridViewTextBoxColumn.DataPropertyName = "Срок_действия";
-            this.срокдействияDataGridViewTextBoxColumn.HeaderText = "Срок действия";
+            this.срокдействияDataGridViewTextBoxColumn.HeaderText = "Срок_действия";
             this.срокдействияDataGridViewTextBoxColumn.Name = "срокдействияDataGridViewTextBoxColumn";
+            this.срокдействияDataGridViewTextBoxColumn.Width = 116;
             // 
             // основаниепоощрениеDataGridViewTextBoxColumn
             // 
             this.основаниепоощрениеDataGridViewTextBoxColumn.DataPropertyName = "Основание_поощрение";
-            this.основаниепоощрениеDataGridViewTextBoxColumn.HeaderText = "Основание поощрение";
+            this.основаниепоощрениеDataGridViewTextBoxColumn.HeaderText = "Основание_поощрение";
             this.основаниепоощрениеDataGridViewTextBoxColumn.Name = "основаниепоощрениеDataGridViewTextBoxColumn";
-            this.основаниепоощрениеDataGridViewTextBoxColumn.Width = 137;
+            this.основаниепоощрениеDataGridViewTextBoxColumn.Width = 157;
             // 
             // основаниевзысканияDataGridViewTextBoxColumn
             // 
             this.основаниевзысканияDataGridViewTextBoxColumn.DataPropertyName = "Основание_взыскания";
-            this.основаниевзысканияDataGridViewTextBoxColumn.HeaderText = "Основание взысканиe";
+            this.основаниевзысканияDataGridViewTextBoxColumn.HeaderText = "Основание_взыскания";
             this.основаниевзысканияDataGridViewTextBoxColumn.Name = "основаниевзысканияDataGridViewTextBoxColumn";
-            this.основаниевзысканияDataGridViewTextBoxColumn.Width = 136;
+            this.основаниевзысканияDataGridViewTextBoxColumn.Width = 156;
             // 
-            // номердипломаDataGridViewTextBoxColumn
+            // mediaDataGridViewTextBoxColumn
             // 
-            this.номердипломаDataGridViewTextBoxColumn.DataPropertyName = "Номер_диплома";
-            this.номердипломаDataGridViewTextBoxColumn.HeaderText = "Номер диплома";
-            this.номердипломаDataGridViewTextBoxColumn.Name = "номердипломаDataGridViewTextBoxColumn";
-            this.номердипломаDataGridViewTextBoxColumn.Width = 105;
+            this.mediaDataGridViewTextBoxColumn.DataPropertyName = "media";
+            this.mediaDataGridViewTextBoxColumn.HeaderText = "media";
+            this.mediaDataGridViewTextBoxColumn.Name = "mediaDataGridViewTextBoxColumn";
+            this.mediaDataGridViewTextBoxColumn.Width = 69;
             // 
             // откакогочислаDataGridViewTextBoxColumn
             // 
             this.откакогочислаDataGridViewTextBoxColumn.DataPropertyName = "От_какого_числа";
-            this.откакогочислаDataGridViewTextBoxColumn.HeaderText = "От какого числа";
+            this.откакогочислаDataGridViewTextBoxColumn.HeaderText = "От_какого_числа";
             this.откакогочислаDataGridViewTextBoxColumn.Name = "откакогочислаDataGridViewTextBoxColumn";
-            this.откакогочислаDataGridViewTextBoxColumn.Width = 108;
+            this.откакогочислаDataGridViewTextBoxColumn.Width = 132;
             // 
             // внутриниеперемещенияDataGridViewTextBoxColumn
             // 
             this.внутриниеперемещенияDataGridViewTextBoxColumn.DataPropertyName = "Внутриние_перемещения";
-            this.внутриниеперемещенияDataGridViewTextBoxColumn.HeaderText = "Внутринeе перемещениe";
+            this.внутриниеперемещенияDataGridViewTextBoxColumn.HeaderText = "Внутриние_перемещения";
             this.внутриниеперемещенияDataGridViewTextBoxColumn.Name = "внутриниеперемещенияDataGridViewTextBoxColumn";
-            this.внутриниеперемещенияDataGridViewTextBoxColumn.Width = 147;
+            this.внутриниеперемещенияDataGridViewTextBoxColumn.Width = 168;
             // 
             // характеристикавыпускникаDataGridViewTextBoxColumn
             // 
             this.характеристикавыпускникаDataGridViewTextBoxColumn.DataPropertyName = "Характеристика_выпускника";
-            this.характеристикавыпускникаDataGridViewTextBoxColumn.HeaderText = "Характеристика выпускника";
+            this.характеристикавыпускникаDataGridViewTextBoxColumn.HeaderText = "Характеристика_выпускника";
             this.характеристикавыпускникаDataGridViewTextBoxColumn.Name = "характеристикавыпускникаDataGridViewTextBoxColumn";
-            this.характеристикавыпускникаDataGridViewTextBoxColumn.Width = 165;
+            this.характеристикавыпускникаDataGridViewTextBoxColumn.Width = 188;
             // 
             // трудоустройствовыпускникаDataGridViewTextBoxColumn
             // 
             this.трудоустройствовыпускникаDataGridViewTextBoxColumn.DataPropertyName = "Трудоустройство_выпускника";
-            this.трудоустройствовыпускникаDataGridViewTextBoxColumn.HeaderText = "Трудоустройство выпускника";
+            this.трудоустройствовыпускникаDataGridViewTextBoxColumn.HeaderText = "Трудоустройство_выпускника";
             this.трудоустройствовыпускникаDataGridViewTextBoxColumn.Name = "трудоустройствовыпускникаDataGridViewTextBoxColumn";
-            this.трудоустройствовыпускникаDataGridViewTextBoxColumn.Width = 168;
+            this.трудоустройствовыпускникаDataGridViewTextBoxColumn.Width = 192;
             // 
             // продвижениевыпускникаDataGridViewTextBoxColumn
             // 
             this.продвижениевыпускникаDataGridViewTextBoxColumn.DataPropertyName = "Продвижение_выпускника";
-            this.продвижениевыпускникаDataGridViewTextBoxColumn.HeaderText = "Продвижение выпускника";
+            this.продвижениевыпускникаDataGridViewTextBoxColumn.HeaderText = "Продвижение_выпускника";
             this.продвижениевыпускникаDataGridViewTextBoxColumn.Name = "продвижениевыпускникаDataGridViewTextBoxColumn";
-            this.продвижениевыпускникаDataGridViewTextBoxColumn.Width = 153;
+            this.продвижениевыпускникаDataGridViewTextBoxColumn.Width = 175;
             // 
-            // пропускибезуважительныхпричинDataGridViewTextBoxColumn
+            // priceDataGridViewTextBoxColumn
             // 
-            this.пропускибезуважительныхпричинDataGridViewTextBoxColumn.DataPropertyName = "Пропуски_без_уважительных_причин";
-            this.пропускибезуважительныхпричинDataGridViewTextBoxColumn.HeaderText = "Пропуски без уважительных причин";
-            this.пропускибезуважительныхпричинDataGridViewTextBoxColumn.Name = "пропускибезуважительныхпричинDataGridViewTextBoxColumn";
-            this.пропускибезуважительныхпричинDataGridViewTextBoxColumn.Width = 168;
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "price";
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            this.priceDataGridViewTextBoxColumn.Width = 63;
             // 
             // MainMenu
             // 
@@ -1191,9 +1188,8 @@
             this.EditPanel.ResumeLayout(false);
             this.EditPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.eFDbContextDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1272,42 +1268,41 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.BindingSource bindingSource1;
         private EFDbContextDataSet eFDbContextDataSet;
-        private System.Windows.Forms.BindingSource studentsBindingSource;
-        private EFDbContextDataSetTableAdapters.studentsTableAdapter studentsTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn фамилияDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn имяDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource booksBindingSource;
+        private EFDbContextDataSetTableAdapters.BooksTableAdapter booksTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bookIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn authorDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn отчествоDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn группаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn датарожденияDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn годпоступленияDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn годокончанияDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn образованиеDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn годокончанияшколыDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn номершколыDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn специальностьDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn формаобученияDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn номертелефонаучащегосяDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn genreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn yearDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pictureDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn номертелефонародителейDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn адресDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn иностранныйязыкDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn группаздоровьяDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn urlDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dimensionsDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn weightDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn гражданствоDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn документподтверждающийгражданствоDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn многодетнаясемьяDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn инвалидностьDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn barcodeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn срокдействияDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn основаниепоощрениеDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn основаниевзысканияDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn номердипломаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mediaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn откакогочислаDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn внутриниеперемещенияDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn характеристикавыпускникаDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn трудоустройствовыпускникаDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn продвижениевыпускникаDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn пропускибезуважительныхпричинDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
     }
 }
 
