@@ -35,7 +35,7 @@ namespace WebUI.Controllers
             if (ModelState.IsValid)
             {
                 repository.SaveBook(book);
-                TempData["message"] = string.Format("Изменение информации о музыке \"{0}\" сохранены", book.Name);
+                TempData["message"] = string.Format("Изменение информации о учащихся \"{0}\" сохранены", book.Name);
                 return RedirectToAction("Index");
             }
             else

@@ -70,7 +70,7 @@ namespace WebUI.Controllers
         {
             if (cart.Lines.Count() == 0)
             {
-                ModelState.AddModelError("", "Извините, корзина пуста!");
+                ModelState.AddModelError("", "Извините!");
             }
 
             if (ModelState.IsValid)

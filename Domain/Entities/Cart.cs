@@ -35,7 +35,8 @@ namespace Domain.Entities
 
         public decimal ComputeTotalValue()
         {
-            return lineCollection.Sum(e => e.Book.Price * e.Quantity);
+
+            return lineCollection.Sum(e => e.Quantity * e.Quantity);
         }
 
         public void Clear()

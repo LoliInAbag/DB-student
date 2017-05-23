@@ -54,7 +54,7 @@ namespace Domain.Concrete
 
                 foreach (var line in cart.Lines)
                 {
-                    var subtotal = line.Book.Price * line.Quantity;
+                    var subtotal = line.Quantity * line.Quantity;
                     body.AppendFormat("{0} x {1} (итого: {2:c}", line.Quantity, line.Book.Name, subtotal);
                 }
 

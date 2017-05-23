@@ -4,11 +4,9 @@
     <div class="row">
 
         <div class="col-xs-9">
-            <h4>
-                <strong>@Model.Author </strong>
-            </h4>
+            
             <h3>
-                <strong>@Model.Name</strong>
+                <strong>@Model.Name @Model.Author</strong>
             </h3>
         </div>
 
@@ -23,27 +21,23 @@
                 @Html.HiddenFor(x => x.BookId)
                 @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
 
-                <h3>
-                    <input type="submit" class="btn btn-success" value="В корзину" />
-                    <strong id="price" class="pull-right label label-primary">@Model.Price.ToString("# руб")</strong>
-                </h3>
-                <div class="img">
-                    <img width="200" height="200" src="@Model.Description" />
-                </div>
-
+                
+              
             </div>
         }
-        <span class="lead">CD-диск с альбомом группы @Model.Author который содержит буклет с фотографиями, текстами песен и дополнительной информацией на английском языке.</span><br><br>
-        <a>Информация: </a><br>
-        <a>Жанр: @Model.Genre </a><br>
-        <a>Автор: @Model.Name </a><br>
-        <a>Год издания:@Model.year </a><br>
-        <a>Габариты:@Model.dimensions </a><br>
-        <a>Бар-код:@Model.barcode </a><br>
-        <a>Тип CD:@Model.media </a><br>       
-        <a>Вес:@Model.weight </a><br><br>
+        <span class="lead"></span><br><br>
 
-        <a class="url" href="@Model.url" >Магазин партнеров </a><br>
+        <a></a><br>
+        <h4>Информация: </h4>
+        <a>Группа: @Model.Description </a><br>
+        <a>Специальность: @Model.Genre </a><br>
+        <a>Форма обучения: @Model.year </a><br>
+        <a>Номер телефона: @Model.picture </a><br>
+        <a>Адрес: @Model.url </a><br>
+        <a>Группа здоровья: @Model.weight </a><br>
+        <a>Инвалидность: @Model.barcode </a><br>
+        <a>Номер диплома: @Model.media </a><br>       
+        <a>Пропуски без уважительных причин: @Model.Price</a><br><br>     
 
     </div>
 
